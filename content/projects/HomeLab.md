@@ -20,7 +20,7 @@ Like every good network nerd, I've got a homelab. From learning about firewall r
   * Hosting this website
 * Tripp Lite 600VA UPS
   * Fits nicely in the bottom of the rack
-* Zyxel NWA50AX ProCurrent
+* Zyxel NWA50AX Pro
   * Shoutout to [Sloraris](https://sloraris.dev/) for hooking me up with this
 * GeeekPi 2U Lockable Drawer
   * Nice to keep long cables organized and hold my USB drives
