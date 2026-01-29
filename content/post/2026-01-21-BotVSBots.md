@@ -23,6 +23,7 @@ Injection is when someone intentionally inputs something that the program doens'
 * **SQL injection** - Malicious SQL statements are inserted into an application to manipulate a database in ways that they shouldn't
 * **Command injection** - Attackers execute system commands on a host by injection them through vulnerable application inputs
 * **Cross-Site Scripting** - Malicious scripts are injected into trusted websites and executed in user's browsers
+
 ## Hacking the Robots ##
 The code and design for the robots can be found [here](https://github.com/SammyBJames/Battle-Bot)
 The challenge was simple: By the end of the hour, get into the robot's login page, escalate to admin, and then race the other robot to the top of the classroom. 
@@ -30,6 +31,7 @@ We broke the challenge out into 3 parts that the students would have to learn mo
 1. Information Exposure 
 2. Insecure Design
 3. SQLInjection
+
 2 teams were formed, and the hacking began. 
 
 Although we had around 40 to 50 people in the room, no one was left out. The students that caught on to things quicker were happy to teach the rest of their team before moving on. Checking in every few minutes, both teams were figuring out information before I could even give them the hints. With about 10 minutes left of club. A robot moved and immediately drove into a wall. The inputs queue up when you spam them, and in excitement of getting into the admin page, the first robot was turned over turtle. The team reset and worked their way up the ramp to the top of the room. 
