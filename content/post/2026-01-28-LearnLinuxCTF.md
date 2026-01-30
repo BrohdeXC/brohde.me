@@ -1,5 +1,6 @@
 ---
 title: Learning Linux Mini-CTF
+subtitle: Building My First CTF in 7 hours
 date: 2026-01-28
 tags: [Club]
 draft: false
@@ -89,6 +90,7 @@ Most of the students of the cybersecurity club have had some knowledge of Linux,
 
 ## SOCLinuxCTF
 ```
+README.md
 Welcome to the SOC Learning-Linux CTF!
 There are 20 flags hidden throughout this directory, your goal is to find them all!
 All flags follow this structure: ClubCTF{5f4dcc3b5aa765d61d8327deb882cf99} 
@@ -126,3 +128,9 @@ flag18.png - steghide - Hidden file using steganography **hiddenmessage**
 flag19.txt - hexadecimal - Which one is actually valid hex?
 flag20.jpg - finale - Steghide, password protected zips, zip2john, 1337haxorz, sheer awesomeness, !!!secret!!!
 ```
+
+# Improvements For Next Time
+I asked some of the students who completed all of the challenges what they would have liked to seen done differently and I got this feedback:
+* Add in exiftool on some of the image challenges
+* Reverse engineering a Python script
+* Solving challenges with awk/sed

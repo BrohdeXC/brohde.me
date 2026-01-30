@@ -10,6 +10,10 @@ I taught the Intro to Cybersecurity class about some basic password cracking usi
 <!--more-->
 Using some of the framework from my [ShellFire](/projects/shellfire) project, I set up 15 different user accounts for the students to play around with Hashcat, my personal favorite tool for password cracking.
 
+## Disclaimer ##
+The content of this post is for educational use only. I do not condone the use of information from this post for illegal or unethical purposes. 
+Use this information only with explicit permission from the owner of the data. **Don't be a Script Kiddie**
+
 ## Topics Covered ##
 * What is Password Cracking?
 * About Hashes
@@ -39,7 +43,7 @@ Simply put, taking a password hash and using it along with some tools to find a 
 **World’s fastest and most advanced password recovery utility**  
 Hashcat supports five unique modes of attack for over 300 highly-optimized hashing algorithms. hashcat currently supports CPUs, GPUs, and other hardware accelerators on Linux, and has facilities to help enable distributed password cracking.
 
-We'll be covering 2 of the 5 types of attacks today.
+We'll be covering 2 of the 5 types of attacks today, brute force and dictionary attacks
 
 ## Types of Attacks - Brute Force
 * The slowest attack type
