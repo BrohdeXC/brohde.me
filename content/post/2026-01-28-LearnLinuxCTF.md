@@ -88,6 +88,13 @@ Most of the students of the cybersecurity club have had some knowledge of Linux,
 * Gets the human-readable text from the input
 * `cat file.bin | strings` - outputs all unicode characters from file.bin
 
+## Download the CTF!
+[Download Link](/assets/files/LinuxCTF.7z)
+
+MD5: `0ff3b69c66c6bd5a171c6d0cdfda8a07`
+
+SHA256: `fa40ec3147b76c940d7fbf0df5b50056d41c35df4e65126317ce187972a956e`
+
 ## SOCLinuxCTF
 ```
 README.md

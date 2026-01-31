@@ -1,9 +1,9 @@
 ---
-title: Network Hacking in 5 Minutes
+title: Network Hacking for Security
 subtitle: Offensive Thinking for Defending Your World
-date: 2026-01-21
+date: 2026-01-31
 tags: [Presentations]
-draft: true
+draft: false
 ---
 
 I was asked to give a 5 minute presentation on the basics of network hacking for the Intro to Cybersecurity class. The goal was to demonstrate the importance of thinking like an attacker in order to defend yourself.
@@ -18,37 +18,44 @@ Use this information only with explicit permission from the owner of the data. *
 * I recognized when I had connected to their WiFi network that it was running WPA2
 * I asked if I could try and break into their network
 * They said yes
-* I did
+* I did. 
+* How? Just like this:
 
 ## Recon
-![bg right contain](assets/NetworkScan.png)
+
 * The first thing we need is to know the network name and security protocol
 * This can be found in WiFi settings if you are connected to the network
 * Other tools can view all the networks, signal strength, and more
 
+![Network Scan](/assets/img/BlogPosts/NetworkHacking/NetworkScan.png)
+
 ## Getting a Handshake
-![bg right contain](assets/wireshark.png)
 * Networks perform a 4-way handshake when connecting devices
 	* We are trying to capture data before it gets encrypted
 * WPA/WPA2 are vulnerable to Deauthentication attacks
 	* Client devices get kicked from the network, and the handshake is captured upon rejoin
 
+![wireshark](/assets/img/BlogPosts/NetworkHacking/wireshark_4way.png)
+
 ## Extracting the Hash
-![bg right contain](assets/hcxpcapng.png)
 * Using tools such as hcxpcapng allows us to extract the password hash
 * Referencing Hashcat's [example hashes](https://hashcat.net/wiki/doku.php?id=example_hashes), we find the hash mode to be 22000
 
+![hcxpcapngtool](/assets/img/BlogPosts/NetworkHacking/hcxpcapng.png)
+
 ## Cracking Hashes
-![bg right contain](assets/hashcat.png)
 * Using Hashcat, run various attacks until we crack the password
 	* `hashcat -m 22000 -a 0 hash.hc22000 rockyou.txt`
 	* `hashcat -m 22000 -a 3 hash.hc22000 {mask}`
 * We find the password to be `aggies#1` and can log in
 
+![Hashcat](/assets/img/BlogPosts/NetworkHacking/hashcat.png)
+
 ## Poking Around the Network
-![bg right contain](assets/nmap.png)
 * We scan all of the devices on the network to see what endpoints are open
 * Now the attacker knows what doors to try
+
+![Nmap](/assets/img/BlogPosts/NetworkHacking/nmap.png)
 
 ## What Now?
 * An attacker would start working on those open services
@@ -57,10 +64,21 @@ Use this information only with explicit permission from the owner of the data. *
 	* Looking for any sort of data/destruction that they can get their hands on
 
 ## How We Can Think Like An Attacker for Security
-* Assume your network will be targeted.
+* Assume your network will be targeted
+  * Attackers scan everything
 * Eliminate "easy wins"
+  * Weak WiFi passwords
+  * Default credentials
+  * Outdated firmware and software
 * Reduce attack surface
+  * Disable unused services
+  * Close unnecessary ports
+  * Segment networks with VLANs
 * Monitor how an attacker scouts
+  * Log connections and authentication attempts
+  * Watch for deauth attacks, repeated failures, unusual scans
 * **Test yourself before someone else does**
+  * Run your own scans (Nmap, Wireshark, Nessus)
+  * Test password strength and policies
 
-Attackers use our assumptions against us. Thinking like them lets us remove those assumptions.
+### Attackers use our assumptions against us. Thinking like them lets us reduce those assumptions

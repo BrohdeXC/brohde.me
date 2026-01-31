@@ -8,7 +8,7 @@ draft: false
 
 I taught the Intro to Cybersecurity class about some basic password cracking using Hashcat. Using basic knowledge of password hashes and common attack types, the students cracked both my MD5 and SHA1 hashlists by utilizing dictionary and brute force attacks.
 <!--more-->
-Using some of the framework from my [ShellFire](/projects/shellfire) project, I set up 15 different user accounts for the students to play around with Hashcat, my personal favorite tool for password cracking.
+Using some of the framework from my [ShellFire](/projects/shellfire) project, I set up 15 different VNC users for the students to safely play around with Hashcat, my personal favorite tool for password cracking.
 
 ## Disclaimer ##
 The content of this post is for educational use only. I do not condone the use of information from this post for illegal or unethical purposes. 
@@ -33,17 +33,21 @@ Simply put, taking a password hash and using it along with some tools to find a 
 * Used for integrity checks and passwords
 * Many different algorithms
 
+![Example Hashes](/assets/img/BlogPosts/PasswordCracking/ExampleHashes.png)
+
 ## About Hashes
 **How are they cracked?**
 * Since hashes can't be reversed, we can't just use a decoding tool like CyberChef to decrypt
 * Words are hashed first, then compared to the hashes we've obtained
+
+![How Hashes Crack](/assets/img/BlogPosts/PasswordCracking/HowHashesCrack.png)
 
 ## What is Hashcat?
 #### From [kali.org](https://www.kali.org/tools/hashcat/)
 **World’s fastest and most advanced password recovery utility**  
 Hashcat supports five unique modes of attack for over 300 highly-optimized hashing algorithms. hashcat currently supports CPUs, GPUs, and other hardware accelerators on Linux, and has facilities to help enable distributed password cracking.
 
-We'll be covering 2 of the 5 types of attacks today, brute force and dictionary attacks
+We'll be covering 2 of the 5 types of attacks, brute force and dictionary attacks
 
 ## Types of Attacks - Brute Force
 * The slowest attack type
