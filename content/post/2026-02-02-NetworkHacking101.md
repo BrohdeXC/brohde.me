@@ -1,8 +1,8 @@
 ---
 title: Network Hacking for Security
 subtitle: Offensive Thinking for Defending Your World
-date: 2026-01-31
-tags: [Presentations]
+date: 2026-02-02
+tags: [Presentations, 101]
 draft: false
 ---
 
@@ -34,11 +34,12 @@ Use this information only with explicit permission from the owner of the data. *
 	* We are trying to capture data before it gets encrypted
 * WPA/WPA2 are vulnerable to Deauthentication attacks
 	* Client devices get kicked from the network, and the handshake is captured upon rejoin
+* I used a Pwnagotchi to get the pcap file as a device reconnected to the network
 
 ![wireshark](/assets/img/BlogPosts/NetworkHacking/wireshark_4way.png)
 
 ## Extracting the Hash
-* Using tools such as hcxpcapng allows us to extract the password hash
+* Using tools such as hcxpcapng allows us to extract the password hash from a pcap file
 * Referencing Hashcat's [example hashes](https://hashcat.net/wiki/doku.php?id=example_hashes), we find the hash mode to be 22000
 
 ![hcxpcapngtool](/assets/img/BlogPosts/NetworkHacking/hcxpcapng.png)

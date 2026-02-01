@@ -1,12 +1,12 @@
 ---
 title: Learning Linux Mini-CTF
-subtitle: Building My First CTF in 7 hours
+subtitle: Building My First CTF
 date: 2026-01-28
-tags: [Club]
+tags: [Club, 101]
 draft: false
 ---
 
-The Intro to Cybersecurity Class this week is learning how to use Linux. Since it's still the beginning of the semester, it would be a good idea to have the club review their Linux commands as well. I put together a mini-CTF for the club meeting for students to hone in on their terminal knowledge. From changing directory to steganography, I hid 20 flags for the students to find in a zip file for everyone to find.
+The Intro to Cybersecurity Class this week is learning how to use Linux. Since it's still the beginning of the semester, it would be a good idea to have the club review their Linux commands as well. I put together a mini-CTF for the club meeting for students to hone in on their terminal knowledge. From changing directory to steganography, I hid 20 flag in a zip file for everyone to find.
 <!--more-->
 ## Overview 
 Most of the students of the cybersecurity club have had some knowledge of Linux, this meeting wasn't so much "what it is" as it was "how to use it". We talked about various ways to set up Linux on systems on different types of machines and covered some of the basic commands that they should expect to use. 
@@ -34,7 +34,7 @@ Most of the students of the cybersecurity club have had some knowledge of Linux,
 `*` (asterisk) - A wildcard character
   * Matches any number of characters
   * "filename*.txt" matches filename1.txt filenamehello.txt, etc.
-  * "filename*.txt" would not match filename1.png because they have different formattings
+  * "filename*.txt" would **not** match filename1.png because they are file types
     
 `|` (pipe) - Redirects output from the left side of the pipe to the command on the right side
   * `echo "helloworld" | base64` would send the output "helloworld" to the base64 command to encode it. 
