@@ -18,7 +18,7 @@ Use this information only with explicit permission from the owner of the data. *
 * I recognized when I had connected to their WiFi network that it was running WPA2
 * I asked if I could try and break into their network
 * They said yes
-* I did. 
+* I did 
 * How? Just like this:
 
 ## Recon
@@ -82,4 +82,5 @@ Use this information only with explicit permission from the owner of the data. *
   * Run your own scans (Nmap, Wireshark, Nessus)
   * Test password strength and policies
 
-### Attackers use our assumptions against us. Thinking like them lets us reduce those assumptions
+### Attackers use our assumptions against us.
+### Thinking like them lets us reduce those assumptions.

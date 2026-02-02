@@ -24,6 +24,7 @@ pygmentsCodefencesGuessSyntax = true
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
   subtitle = "Cybersecurity x Mechanical Engineering"
   mainSections = ["post","posts"]
+  #mainSections = ["post"]
   logo = "assets/img/AboutPics/Bradin_Cropped.png" # Expecting square dimensions
   favicon = "assets/img/AboutPics/Bradin_Cropped.png"
   dateFormat = "January 2, 2006"

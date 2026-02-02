@@ -117,9 +117,9 @@ There are 5 different types of password attacks that Hashcat supports:
 * Wordlists for dictionary/combinator/hybrid attacks
 
 ## How to Crack Hashes - Hashcat
-* Identify the **[attack mode](https://hashcat.net/wiki/doku.php?id=example_hashes)** for each of the hashes
+* Identify the **[hash mode](https://hashcat.net/wiki/doku.php?id=example_hashes)** for each of the hashes
 
-| Hash ID | Name | Example Hash |
+| Hash Mode | Name | Example Hash |
 | ------- | ---- | ------------ |
 | 0 | MD5 | bbea6f690be59732119bf93d45feb818 |
 | 100 | SHA1 | fafacad008a3d3a34278cd05e61fdd3da64790d4 |
@@ -132,19 +132,19 @@ There are 5 different types of password attacks that Hashcat supports:
 | Value:   | 0          | 1          | 3                  | 6/7    | 9           |
 
 * Dictionary attack format:
-  * `hashcat -m {Hash_ID} -a 0 {hashfile} {file.dict}`
+  * `hashcat -m {Hashmode} -a 0 {hashfile} {file.dict}`
 	* rockyou.txt is in `/usr/share/wordlists/rockyou.txt`
 * Combinator attack format:
-  * `hashcat -m {Hash_ID} -a 1 {hashfile} {file1.dict}{file2.dict}`
+  * `hashcat -m {Hashmode} -a 1 {hashfile} {file1.dict}{file2.dict}`
 * Brute Force attack format:
-  * `hashcat -m {Hash_ID} -a 3 {hashfile} {mask}`
+  * `hashcat -m {Hashmode} -a 3 {hashfile} {mask}`
     * `?d`igits, `?u`ppercase, `?l`owercase, `?s`pecial, `?a`ll
 * Hybrid attack (append) format:
-  * `hashcat -m {Hash_ID} -a 6 {hashfile} {file.dict}{mask}`
+  * `hashcat -m {Hashmode} -a 6 {hashfile} {file.dict}{mask}`
 * Hybrid attack (prepend) format:
-  * `hashcat -m {Hash_ID} -a 7 {hashfile} {mask}{file.dict}`
+  * `hashcat -m {Hashmode} -a 7 {hashfile} {mask}{file.dict}`
 * Association attack format:
-  * `hashcat -m {Hash_ID} -a 9 {hashfile} {file.dict}`
+  * `hashcat -m {Hashmode} -a 9 {hashfile} {file.dict}`
 * Show found passwords by adding `--show` to the previous command
 
 ## What We Can Learn #
