@@ -1,5 +1,5 @@
 ---
-title: Password Cracking 1010
+title: Intro to Password Cracking
 subtitle: Using Hashcat to Show The Importance of Strong Passwords
 date: 2026-01-21
 # lastmod: 2026-02-03

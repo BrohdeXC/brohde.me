@@ -1,5 +1,5 @@
 ---
-title: Network Hacking 1010
+title: Network Hacking Intro
 subtitle: Offensive Thinking for Defending Your World
 date: 2026-02-02
 # lastmod: 2026-02-03
@@ -12,15 +12,6 @@ I was asked to give a 5 minute presentation on the basics of network hacking for
 ## Disclaimer ##
 The content of this post is for educational use only. I do not condone the use of information from this post for illegal or unethical purposes. 
 Use this information only with explicit permission from the owner of the data. **Don't be a Script Kiddie**
-
-## Let Me Tell You A Story
-
-* I was visiting my in-laws for their Thanksgiving celebrations
-* I recognized when I had connected to their WiFi network that it was running WPA2
-* I asked if I could try and break into their network
-* They said yes
-* I did. 
-* How? Just like this:
 
 ## Recon
 

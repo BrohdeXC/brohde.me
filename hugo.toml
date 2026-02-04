@@ -131,10 +131,10 @@ hideAuthor = true
     url = "projects/homelab"
     weight = 4
 
-[[menu.main]]
-    name = "Shop"
-    url = "https://brohde-engineering.square.site"
-    weight = "4"
+#[[menu.main]]
+#    name = "Shop"
+#    url = "https://brohde-engineering.square.site"
+#    weight = "4"
 
 #[[menu.main]]
 #    name = "Tags"
