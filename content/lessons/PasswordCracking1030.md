@@ -4,9 +4,8 @@ subtitle: Intro to John the Ripper
 date: 2026-02-03
 # lastmod: 2026-02-11
 tags: [Lessons, PasswordCracking]
-draft: false
+draft: true
 ---
-The people have spoken. They want more advanced password cracking techniques. Using Hashcat, John, Ophcrack, and more, we'll discuss acquiring hashes, creating/using custom rulesets, and rainbow tables.
 
 <!--more-->
 **Prerequisites: [Password Cracking 1010 - Intro to Password Cracking](/lessons/passwordcracking1010/)**
