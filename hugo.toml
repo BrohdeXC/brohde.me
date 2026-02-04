@@ -23,8 +23,7 @@ pygmentsCodefencesGuessSyntax = true
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
   subtitle = "Cybersecurity x Mechanical Engineering"
-  mainSections = ["post","posts"]
-  #mainSections = ["post"]
+  mainSections = ["blog"]
   logo = "assets/img/AboutPics/Bradin_Cropped.png" # Expecting square dimensions
   favicon = "assets/img/AboutPics/Bradin_Cropped.png"
   dateFormat = "January 2, 2006"
@@ -100,6 +99,9 @@ hideAuthor = true
     url = "page/about/"
     weight = 1
 
+# ------------------
+# ---- Projects ----
+# ------------------
 [[menu.main]]
     identifier = "projects"
     name = "Projects"
@@ -128,6 +130,11 @@ hideAuthor = true
     name = "HomeLab"
     url = "projects/homelab"
     weight = 4
+
+[[menu.main]]
+    name = "Shop"
+    url = "https://brohde-engineering.square.site"
+    weight = "4"
 
 #[[menu.main]]
 #    name = "Tags"
