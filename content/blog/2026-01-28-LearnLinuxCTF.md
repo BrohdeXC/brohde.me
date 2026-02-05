@@ -61,7 +61,9 @@ Most of the students of the cybersecurity club have had some knowledge of Linux,
 
 `cd {directory}`
 * Navigates you to the directory
-* `cd Downloads` - Puts you in the Downloads directory.
+* `cd ~` - Takes you to your home directory
+* `cd ..` - Takes you to the parent directory
+* `cd Downloads` - Puts you in the Downloads directory
 
 `mv {filename} {new_name}`
 * Renames (or moves) the file
