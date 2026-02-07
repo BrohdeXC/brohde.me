@@ -1,7 +1,7 @@
 ---
 title: Homelabbing
 subtitle: "Honey, Why Doesn't Our Internet Work?"
-date: 2026-02-11
+date: 2026-02-18
 # lastmod: 2026-02-03
 tags: [Club]
 draft: true

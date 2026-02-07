@@ -1,4 +1,12 @@
+# Beginner Labs
+## [PC1025 - Hashcat Lab](/courses/passwordcracking/) ##
+Using dictionary, combinator, brute force, and hybrid methods in order to crack passwords.
 
+## [PC1035 – JohnTheRipper Lab](/courses/passwordcracking/)
+Using wordlists, single attack mode, and incremental attack modes in order to recover hashes.
+  
+## [PC1045 – OphCrack Lab](/courses/passwordcracking/)
+Using OphCrack to get the plaintext of various out-dated types of password hashes.
 
 # Intermediate Courses
 ## [2010 – Gathering Hashes](/lessons/passwordcracking/)
