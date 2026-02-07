@@ -146,7 +146,7 @@ Each attack would be formatted like this:
 * To get the first 2 hashes, we're going to perform a **Dictionary** attack
 * Remember that the Hash Mode was `0` for MD5
 * The Attack Mode for a dictionary attack is also `0`
-* `hashcat -m 0 -a 0 hashes.txt rockyou.txt`
+* `hashcat -m 0 -a 0 hashes.txt pebbleyou.txt`
 ### Hashes 3 and 4
 * To get the 3rd and 4th hashes, we're going to do a **Combinator** attack
 * The Attack Mode for combinator is `1`
@@ -167,7 +167,7 @@ Each attack would be formatted like this:
 
 ## How to Crack Hashes - Re-evaluate and Repeat
 By now, all the passwords should have been discovered! We can check this by running one of our previous commands with `--show` at the end!  
-`hashcat -m 0 -a 0 hashes.txt rockyou.txt --show`  
+`hashcat -m 0 -a 0 hashes.txt pebbleyou.txt --show`  
 
 ![Cracked Hashes](/assets/img/CoursePics/PasswordCracking/CrackedHashes.png)  
 Harder passwords might require multiple attempts of different masks, wordlists, and combinations to get it right. Every hash can be cracked, it's just a matter of time (sometimes trillions of years) before we get them!
