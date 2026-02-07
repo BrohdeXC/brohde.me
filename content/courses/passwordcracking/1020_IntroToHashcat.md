@@ -95,10 +95,10 @@ Cracking hashes can be broken up into 5 steps:
 
 ## How to Crack Hashes - Obtain Hashes
 **This lesson will not cover acquiring hashes.** I will be going into depth on acquiring hashes in Password Cracking 2010. For this lesson, download and extract this file for hashes and dictionaries.  
-[Download PC1020_Files.7z](/assets/files/PasswordCracking/PC1020_Files.7z)  
+[Download PC1020.7z](/assets/files/PasswordCracking/PC1020.7z)  
 #### Checksums:  
-MD5: `5892911de91eedab1926941e99e74c3f`  
-SHA256: `5bc3a0638e7c9286a5b28dd5f32cd096bf5dd9c56e2c45afbd5e27d5353ce4ba`  
+MD5: `59b83bd6dec3cc2360842f3b28544192`  
+SHA256: `cac5d19a9439efdf8d0e8278de8230e9fc1b9660fabb4072be512463cb98dd75`  
 
 ## How to Crack Hashes - Identify the Hash Mode
 Use [hashes.com](https://hashes.com/en/tools/hash_identifier) to identify what kind of hash we are working with.  
