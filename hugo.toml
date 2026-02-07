@@ -89,14 +89,30 @@ hideAuthor = true
   #lastfm = "username"
   #bluesky = "username"
 
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 1
+
 [[menu.main]]
     name = "Blog"
     url = ""
     weight = 2
 
+# ------------------
+# ---- Courses -----
+# ------------------
 [[menu.main]]
-    name = "About"
-    url = "page/about/"
+    identifier = "courses"
+    name = "Courses"
+    weight = 3
+
+# --- Password Cracking ---
+[[menu.main]]
+    parent = "courses"
+    name = "Password Cracking"
+    url = "/courses/passwordcracking/syllabus/"
     weight = 1
 
 # ------------------
@@ -105,30 +121,30 @@ hideAuthor = true
 [[menu.main]]
     identifier = "projects"
     name = "Projects"
-    weight = 3
+    weight = 4
 
 [[menu.main]]
     parent = "projects"
     name = "ShellFire"
-    url = "projects/shellfire/"
+    url = "/projects/shellfire/"
     weight = 1
 
 [[menu.main]]
     parent = "projects"
     name = "PwnHound"
-    url = "projects/pwnhound"
+    url = "/projects/pwnhound/"
     weight = 2
 
 [[menu.main]]
     parent = "projects"
     name = "1337ness"
-    url = "projects/1337ness"
+    url = "/projects/1337ness/"
     weight = 3
 
 [[menu.main]]
     parent = "projects"
     name = "HomeLab"
-    url = "projects/homelab"
+    url = "/projects/homelab"
     weight = 4
 
 #[[menu.main]]
