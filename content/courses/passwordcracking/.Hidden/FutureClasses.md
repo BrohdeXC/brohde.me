@@ -1,17 +1,4 @@
-## [1030 - Intro to JohnTheRipper](/lessons/passwordcracking/1030_introtojohn) ##
-  ?
 
-## [1035 – JohnTheRipper Lab](/lessons/passwordcracking/)
-  - Basic John workflows
-  - Cracking common hash formats
-  
-## [1040 – Intro to OphCrack](/lessons/passwordcracking/)
-  - Rainbow tables
-  - Why OphCrack is largely outdated today
-  
-## [1045 – OphCrack Lab 1](/lessons/passwordcracking/)
-  - Using precomputed rainbow tables
-  - Understanding limitations
 
 # Intermediate Courses
 ## [2010 – Gathering Hashes](/lessons/passwordcracking/)

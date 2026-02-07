@@ -2,7 +2,7 @@
 title: Password Cracking 1020
 subtitle: Intro to Hashcat
 date: 2026-02-05
-# lastmod: 2026-02-11
+lastmod: 2026-02-07
 tags: [Lessons, PasswordCracking]
 draft: false
 ---
@@ -24,8 +24,8 @@ Use this information only with explicit permission from the owner of the data. *
 
 # What is Hashcat? #
 #### From [kali.org](https://www.kali.org/tools/hashcat/)
-**World’s fastest and most advanced password recovery utility**  
-Hashcat supports five unique modes of attack for over 300 highly-optimized hashing algorithms. Hashcat currently supports CPUs, GPUs, and other hardware accelerators on Linux, and has facilities to help enable distributed password cracking.
+"**World’s fastest and most advanced password recovery utility**  
+Hashcat supports five unique modes of attack for over 300 highly-optimized hashing algorithms. Hashcat currently supports CPUs, GPUs, and other hardware accelerators on Linux, and has facilities to help enable distributed password cracking."
 
 ## Installing Hashcat ##
 Debian/Ubuntu/Kali: `sudo apt install hashcat`  
@@ -120,10 +120,11 @@ Once you know the type of hash, find the Hash Mode by using [Hashcat's example h
 | 100 | SHA1 | fafacad008a3d3a34278cd05e61fdd3da64790d4 |
 | 1000 | NTLM | 938C6B926DC1FF02C6C03AB5F6A6487B |  
 
-Since the hashes are using MD5, Hash Mode `0` will be used  
+Since the hashes are using MD5, Hash Mode `0` will be used and denoted by the `-m` flag.  
 
 ## How to Crack Hashes - Declare the Attack Mode ##
-The Hashcat *attack mode* is the type of attack being performed on the hashes.
+The Hashcat *attack mode* is the type of attack being performed on the hashes.  
+It is declared with the `-a` flag.
 | Attack | Dictionary | Combinator | Brute Force / Mask | Hybrid | Association |
 | ------- | ---------- | ---------- | ------------------ | ------ | ----------- |
 | Value   | 0          | 1          | 3                  | 6/7    | 9           |
