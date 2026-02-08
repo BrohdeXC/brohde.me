@@ -24,6 +24,10 @@ jobs:
       NODE_VERSION: 24.12.0
       TZ: Europe/Oslo
     steps:
+      - uses: geekyeggo/delete-artifact@v5
+        with:
+            name: |
+                github-pages
       - name: Checkout
         uses: actions/checkout@v6
         with:
@@ -103,4 +107,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v3
+        uses: actions/deploy-pages@v4
