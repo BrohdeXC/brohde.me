@@ -6,11 +6,11 @@ date: 2026-02-03
 tags: [Lessons, PasswordCracking]
 draft: false
 ---
-An introductory lesson for password cracking. This post covers the idea behind using hashes, how they are cracked, and various types of password attacks.
+An introductory lesson for password cracking. This lesson covers the idea behind using hashes, how they are cracked, and various types of password attacks.
 <!--more-->
 
 ## Disclaimer ##
-The content of this post is for educational use only. I do not condone the use of information from this post for illegal or unethical purposes. 
+The content of this course is for educational use only. I do not condone the use of information from this post for illegal or unethical purposes. 
 Use this information only with explicit permission from the owner of the data. **Don't be a Script Kiddie**
 
 ## Topics Covered ##

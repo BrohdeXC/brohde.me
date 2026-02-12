@@ -111,9 +111,12 @@ hideAuthor = true
 # --- Password Cracking ---
 [[menu.main]]
     parent = "courses"
+    identifier = "passwordcracking"
     name = "Password Cracking"
     url = "/courses/passwordcracking/syllabus/"
     weight = 1
+
+[[menu.main]]
 
 # ------------------
 # ---- Projects ----

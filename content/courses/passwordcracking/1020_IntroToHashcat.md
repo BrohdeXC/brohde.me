@@ -10,10 +10,10 @@ An introductory lesson to Hashcat. This lesson will cover the usage of the dicti
 <!--more-->
 ## Prerequisites: ##
 Familiarity with the command line and Linux commands  
-[Password Cracking 1010 - Intro to Password Cracking](/courses/passwordcracking/1010_introtopasswordcracking)
+[PC1010 - Intro to Password Cracking](/courses/passwordcracking/1010_introtopasswordcracking)
 
 ## Disclaimer ##
-The content of this post is for educational use only. I do not condone the use of information from this post for illegal or unethical purposes. 
+The content of this course is for educational use only. I do not condone the use of information from this post for illegal or unethical purposes. 
 Use this information only with explicit permission from the owner of the data. **Don't be a Script Kiddie**
 
 ## Topics Covered ##
@@ -31,7 +31,6 @@ Hashcat supports five unique modes of attack for over 300 highly-optimized hashi
 Debian/Ubuntu/Kali: `sudo apt install hashcat`  
 Arch: `sudo pacman -S hashcat`  
 Brew: `brew install hashcat`
-
 
 # Types of Attacks #
 There are 5 different types of password attacks that Hashcat supports:
@@ -178,4 +177,4 @@ By now, all the passwords should have been discovered! We can check this by runn
 `hashcat -m 0 -a 0 hashes.txt pebbleyou.txt --show`  
 
 ![Cracked Hashes](/assets/img/CoursePics/PasswordCracking/CrackedHashes.png)  
-Harder passwords might require multiple attempts of different masks, wordlists, and combinations to get it right. Every hash can be cracked, it's just a matter of time (sometimes trillions of years) before we get them!
+Harder passwords might require multiple attempts of different masks, wordlists, and combinations to get it right. Every hash can theoretically be cracked, it's just a matter of time (sometimes trillions of years) before we get them!
