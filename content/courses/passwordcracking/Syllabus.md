@@ -6,7 +6,7 @@ lastmod: 2026-02-13
 tags: [Courses]
 draft: false
 ---
-`This course is actively being written. Anything with an asterisk is currently unfinished. More courses to come!`
+
 # Beginner Courses
 ### [PC1010 - Intro to Password Cracking](/courses/passwordcracking/1010_introtopasswordcracking)
 An introductory lesson for password cracking. Covers the idea behind using hashes, how they are cracked, and various types of offline password attacks.

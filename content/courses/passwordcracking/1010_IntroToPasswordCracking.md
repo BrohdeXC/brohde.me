@@ -98,3 +98,6 @@ There are various types of attacks used for Password Cracking:
 	* Even if your password does get hacked, hackers still can't get in without your second factor
 
 **The goal of defenders is not to make cracking impossible, but rather to make it computationally impractical**
+
+---
+## Next Topic: [PC1510 - Intro to Hashcat](/courses/passwordcracking/1510_introtohashcat)
