@@ -2,7 +2,7 @@
 title: PC1025 - Hashcat Lab
 # subtitle: Hashcat Lab
 date: 2026-02-06
-# lastmod: 2026-02-07
+lastmod: 2026-02-13
 tags: [Labs, PasswordCracking]
 draft: false
 ---
@@ -19,15 +19,22 @@ Use this information only with explicit permission from the owner of the data. *
 ## Resources Required ##
 * Text editor
 * Hashcat
-* [pebbleyou.txt](/assets/files/PasswordCracking/PC1025/pebbleyou.txt) (rockyou.txt will work too)
+* pebbleyou.txt (rockyou.txt will work too)
 
 ## Lab Prompt ##
 We conducted security assessments on 3 of the company departments. With each one, we were able to extract some hashes for various user accounts. Each department has different policies for setting passwords. Find the patterns and crack all the passwords!  
 
-Download the hash files [here!](/assets/files/PasswordCracking/PC1025.7z)
+[Download PC1025.7z](/assets/files/PasswordCracking/PC1025.7z)  
+* pebbleyou.txt (1/4 the size of rockyou.txt)
+* hashes1.txt (5 hashes)
+* hashes2.txt (10 hashes)
+* hashes3.txt (10 hashes)
 
+#### PC1025.7z Checksums:  ####
+MD5: `38be75cb50e46ae0df8e5f2bc035b367`  
+SHA256: `63c65eb239f0624c6efaae2d6c19d9e89fa281666a46afdc2172eaedd38cdc2e`  
 
-**Database 1** 
+**hashes1.txt** 
 ```bash
 d5cec0a4dab34d51eaa57c97adf7a3262c43a2f1c17369ceb11b40e06714f087
 f1da9421394e4892f3ed37287493ec319f321d23c1fa6c4dba10fbdda95186a3
@@ -36,7 +43,7 @@ becedec1e34ba27a9684af85e6e49c5e4e5124520b6ba059820f8b4bb60c328f
 d0a5e64798ce47fddd565cbe02e22ffeda835dd819b15528dd62e80e45328a75
 ```
 
-**Database 2** 
+**hashes2.txt** 
 ```bash
 1d06f250bea546b9862fab4751a6f056
 12169d5a079252c9ba59973f163c4018
@@ -49,7 +56,7 @@ c71e16bc1cb82eafb1a71c3568fcb630
 ffebea881107ff35c46a96b69f037105
 4c4f00ea90364c4b288090b1855de5f7
 ```
-**Database 3** 
+**hashes3.txt** 
 ```bash
 013c17dfad9f7825409dd056dcf5e23f
 20f016fb1b49fc30be42b16681095894
@@ -64,7 +71,8 @@ fcc0d3f957606f61aeb8448e449509e5
 ```
 
 ## Solutions ##
-Database 1 - SHA256 - Dictionary attack w/ pebbleyou.txt  
+hashes1.txt - SHA256 - Dictionary attack w/ pebbleyou.txt  
+`hashcat -m 1400 -a 0 hashes1.txt pebbleyou.txt`
 ```bash
 d5cec0a4dab34d51eaa57c97adf7a3262c43a2f1c17369ceb11b40e06714f087:secureme123
 f1da9421394e4892f3ed37287493ec319f321d23c1fa6c4dba10fbdda95186a3:catlovermeme
@@ -72,7 +80,8 @@ becedec1e34ba27a9684af85e6e49c5e4e5124520b6ba059820f8b4bb60c328f:securityadmin28
 3684ef64d82e08cf5cac8c8a206498b67d12971a8721a5519a0e2c9d2f3ee151:mypasswordistooshort
 d0a5e64798ce47fddd565cbe02e22ffeda835dd819b15528dd62e80e45328a75:loveredbull
 ```
-Database 2 - MD5 - Hybrid attack w/ [names](https://github.com/dominictarr/random-name/blob/master/first-names.txt) + ?d?d?d?d  
+hashes2.txt - MD5 - Hybrid attack w/ [names](https://github.com/dominictarr/random-name/blob/master/first-names.txt) + year  
+`hashcat -m 0 -a 6 hashes2.txt names.txt '?d?d?d?d'`
 ```bash
 1d06f250bea546b9862fab4751a6f056:Steve1951
 12169d5a079252c9ba59973f163c4018:Mary1976
@@ -85,7 +94,8 @@ c71e16bc1cb82eafb1a71c3568fcb630:Emily1965
 974b867bf05847d75352159ff4955aa9:Frank1984
 4c4f00ea90364c4b288090b1855de5f7:Ashley2008
 ```
-Database 3 - MD5 - Combinator attack w/ [colors](https://gist.github.com/mordka/c65affdefccb7264efff77b836b5e717) + [animals](https://gist.github.com/atduskgreg/3cf8ef48cb0d29cf151bedad81553a54)  
+hashes3.txt - MD5 - Combinator attack w/ [colors](https://gist.github.com/mordka/c65affdefccb7264efff77b836b5e717) + [animals](https://gist.github.com/atduskgreg/3cf8ef48cb0d29cf151bedad81553a54)  
+`hashcat -m 0 -a 1 hashes3.txt colors.txt animals.txt`
 
 ```bash
 013c17dfad9f7825409dd056dcf5e23f:greencow

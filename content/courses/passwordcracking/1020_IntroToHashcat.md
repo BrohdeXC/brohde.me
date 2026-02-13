@@ -101,14 +101,14 @@ Cracking hashes can be broken up into 5 steps:
 
 ## How to Crack Hashes - Obtain Hashes ##
 **This lesson will not cover acquiring hashes.** I will be going into depth on acquiring hashes in Password Cracking 2010. For this lesson, download and extract this file for hashes and dictionaries.  
+
 [Download PC1020.7z](/assets/files/PasswordCracking/PC1020.7z)  
-Contains:
 * pebbleyou.txt (1/4 the size of rockyou.txt)
 * colors.txt (25 colors)
 * fruit.txt (25 fruits)
 * hashes.txt (8 hashes)
 
-#### Checksums:  ####
+#### PC1020.7z Checksums:  ####
 MD5: `59b83bd6dec3cc2360842f3b28544192`  
 SHA256: `cac5d19a9439efdf8d0e8278de8230e9fc1b9660fabb4072be512463cb98dd75`  
 

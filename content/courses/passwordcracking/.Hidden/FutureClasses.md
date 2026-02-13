@@ -21,6 +21,11 @@ Using wordlists, single attack mode, and incremental attack modes in order to re
 ## [PC1045 – OphCrack Lab](/courses/passwordcracking/)
 Using OphCrack to get the plaintext of various out-dated types of password hashes.
 
+
+
+### [PC1040 – Intro to OphCrack*](/courses/passwordcracking/1040_introtoophcrack) / [PC1045 – OphCrack Lab*](/courses/passwordcracking/1045_ophcracklab)
+An introductory lesson to OphCrack. This lesson covers the basics of rainbow tables and their usage in cracking passwords.
+
 # Intermediate Courses
 ## [2010 – Gathering Hashes](/lessons/passwordcracking/)
 - Where hashes come from

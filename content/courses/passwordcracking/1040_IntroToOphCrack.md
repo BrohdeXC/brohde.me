@@ -2,7 +2,7 @@
 title: PC1040 - Intro to OphCrack
 subtitle: Using Rainbow Tables to Show Off Pre-Computed Passwords
 date: 2026-02-03
-lastmod: 2026-02-12
+lastmod: 2026-02-13
 tags: [Lessons, PasswordCracking]
 draft: true
 ---
@@ -26,7 +26,7 @@ Use this information only with explicit permission from the owner of the data. *
 #### From [kali.org](https://www.kali.org/tools/ophcrack/)
 "Ophcrack is a Windows password cracker based on a time-memory trade-off using rainbow tables. This is a new variant of Hellman’s original trade-off, with better performance. It recovers 99.9% of alphanumeric passwords in seconds."
 
-It is primarily used on older NTLM hashes, therefore it is not extremely relevent today.
+It is primarily used on older NTLM hashes (Windows Vista, XP, and 7), therefore it is not extremely relevent today.
 
 ## Installing Ophcrack ##
 Debian/Ubuntu/Kali: `sudo apt insatll ophcrack`  

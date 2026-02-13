@@ -1,7 +1,7 @@
 ---
 title: PC1030 - Intro to John the Ripper
 subtitle: Intro to John the Ripper
-date: 2026-02-03
+date: 2026-02-13
 # lastmod: 2026-02-11
 tags: [Lessons, PasswordCracking]
 draft: false
@@ -55,8 +55,8 @@ There are 4 basic JtR modes that we'll be covering:
 
 ## Types of Attacks – Incremental Mode
 * Similar to a typical brute force mask attack
-* Starts at ?a
-  * Goes until you get a password
+* Goes until you get passwords
+* Recommended to use this after exhausting other options
 * `--incremental:{mode}`
   * `Lower` - Lowercase letters
   * `Alpha` - Uppsercase letters
@@ -81,7 +81,7 @@ There are 4 basic JtR modes that we'll be covering:
 * Applies comon variations to existing user information to generate passwords
 * Great to start with if it seems likely that the username will be similar to the password
 * Use this one if you have a the `/etc/shadow` file or are doing a password audit.
-  * use `unshadow` to combine the passwd and shadow files
+  * Use `unshadow` to combine the passwd and shadow files
 * `--single`
 
 ---
@@ -95,16 +95,16 @@ Cracking hashes with JtR can be broken up into 5 steps:
 
 ## Step 1 – Obtain Hashes
 **This lesson will not cover acquiring hashes.** I will be going into depth on acquiring hashes in Password Cracking 2010. For this lesson, download and extract this file for hashes and dictionaries.  
+
 [Download PC1030.7z](/assets/files/PasswordCracking/PC1030.7z)  
-Contains:
 * pebbleyou.txt (1/4 the size of rockyou.txt)
 * hashes.txt (6 hashes)
 * passwd.txt (from `/etc/passwd`)
 * shadow.txt (from `/etc/shadow`)
 
-#### Checksums:  ####
-MD5: ` `  
-SHA256: ` `  
+#### PC1030.7z Checksums:  ####
+MD5: `3ba635c693c27281b0a283b7e98e24b1`  
+SHA256: `01be0fd096a076f3d567ff86fc80d6de44c608c335b52e39e147c6f2326e643e`  
 
 ## Step 2 – Determine the Type of Hash
 *John will usually autodetect the type of hash being uses, if you get an error, try using these commands*
