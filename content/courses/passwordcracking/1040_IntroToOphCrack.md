@@ -1,10 +1,10 @@
 ---
-title: Password Cracking 1040
-subtitle: Intro to OphCrack
+title: PC1040 - Intro to OphCrack
+subtitle: Using Rainbow Tables to Show Off Pre-Computed Passwords
 date: 2026-02-03
-# lastmod: 2026-02-11
+lastmod: 2026-02-12
 tags: [Lessons, PasswordCracking]
-draft: false
+draft: true
 ---
 An introductory lesson to OphCrack. This lesson covers the basics of rainbow tables, how to install them, and their usage.
 

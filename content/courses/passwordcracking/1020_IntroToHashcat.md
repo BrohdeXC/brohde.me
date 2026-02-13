@@ -1,14 +1,14 @@
 ---
-title: Password Cracking 1020
-subtitle: Intro to Hashcat
+title: PC1020 - Intro to Hashcat
+# subtitle: 
 date: 2026-02-05
-lastmod: 2026-02-07
+lastmod: 2026-02-12
 tags: [Lessons, PasswordCracking]
 draft: false
 ---
 An introductory lesson to Hashcat. This lesson will cover the usage of the dictionary, combinator, brute force, and hybrid attack modes
 <!--more-->
-## Prerequisites: ##
+## Prerequisites ##
 Familiarity with the command line and Linux commands  
 [PC1010 - Intro to Password Cracking](/courses/passwordcracking/1010_introtopasswordcracking)
 
@@ -22,6 +22,8 @@ Use this information only with explicit permission from the owner of the data. *
 * Cracking Passwords
 * Viewing Cracked Passwords
 
+---
+
 # What is Hashcat? #
 #### From [kali.org](https://www.kali.org/tools/hashcat/)
 "**World’s fastest and most advanced password recovery utility**  
@@ -31,6 +33,8 @@ Hashcat supports five unique modes of attack for over 300 highly-optimized hashi
 Debian/Ubuntu/Kali: `sudo apt install hashcat`  
 Arch: `sudo pacman -S hashcat`  
 Brew: `brew install hashcat`
+
+---
 
 # Types of Attacks #
 There are 5 different types of password attacks that Hashcat supports:
@@ -85,9 +89,11 @@ There are 5 different types of password attacks that Hashcat supports:
 * *This type of attack is more useful for slow hashes and salts, attempting to correlate usernames or known values with passwords*
 * *We'll revisit this type of attack with more advanced password cracking*
 
+---
+
 # How to Crack Hashes #
 Cracking hashes can be broken up into 5 steps:
-1. Obtain Hashes
+1. Obtain hashes
 2. Identify the hash ID (also known as hash mode)
 3. Declare the attack mode
 4. Crack hashes
@@ -176,5 +182,5 @@ Each attack would be formatted like this:
 By now, all the passwords should have been discovered! We can check this by running one of our previous commands with `--show` at the end!  
 `hashcat -m 0 -a 0 hashes.txt pebbleyou.txt --show`  
 
-![Cracked Hashes](/assets/img/CoursePics/PasswordCracking/CrackedHashes.png)  
+![Cracked Hashes](/assets/img/CoursePics/PasswordCracking/Hashcat_CrackedHashes.png)  
 Harder passwords might require multiple attempts of different masks, wordlists, and combinations to get it right. Every hash can theoretically be cracked, it's just a matter of time (sometimes trillions of years) before we get them!

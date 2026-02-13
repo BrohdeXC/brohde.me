@@ -2,5 +2,5 @@
 &lt;h1 id="beginner-courses"&gt;Beginner Courses&lt;/h1&gt;
 &lt;h3 id="pc1010---intro-to-password-cracking"&gt;&lt;a href="https://brohde.me/courses/passwordcracking/1010_introtopasswordcracking"&gt;PC1010 - Intro to Password Cracking&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;An introductory lesson for password cracking. Covers the idea behind using hashes, how they are cracked, and various types of offline password attacks.&lt;/p&gt;
-&lt;h3 id="pc1020---intro-to-hashcat--pc1025---hashcat-lab"&gt;&lt;a href="https://brohde.me/courses/passwordcracking/1020_introtohashcat"&gt;PC1020 - Intro to Hashcat&lt;/a&gt; / &lt;a href="https://brohde.me/courses/passwordcracking/1025_hashcatlab"&gt;PC1025 - Hashcat Lab*&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id="pc1020---intro-to-hashcat--pc1025---hashcat-lab"&gt;&lt;a href="https://brohde.me/courses/passwordcracking/1020_introtohashcat"&gt;PC1020 - Intro to Hashcat&lt;/a&gt; / &lt;a href="https://brohde.me/courses/passwordcracking/1025_hashcatlab"&gt;PC1025 - Hashcat Lab&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;An introductory lesson to Hashcat. This lesson will cover the usage of the dictionary, combinator, brute force, and hybrid attack modes.&lt;/p&gt;</description></item></channel></rss>

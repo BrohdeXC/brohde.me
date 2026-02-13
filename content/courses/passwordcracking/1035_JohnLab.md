@@ -1,6 +1,6 @@
 ---
-title: Password Cracking 1035
-subtitle: John the Ripper Lab
+title: PC1035 - John Lab
+#subtitle: John the Ripper Lab
 date: 2026-02-03
 tags: [Labs, PasswordCracking]
 draft: true

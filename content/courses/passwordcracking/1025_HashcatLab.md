@@ -1,6 +1,6 @@
 ---
-title: Password Cracking 1025
-subtitle: Hashcat Lab
+title: PC1025 - Hashcat Lab
+# subtitle: Hashcat Lab
 date: 2026-02-06
 # lastmod: 2026-02-07
 tags: [Labs, PasswordCracking]
@@ -22,7 +22,10 @@ Use this information only with explicit permission from the owner of the data. *
 * [pebbleyou.txt](/assets/files/PasswordCracking/PC1025/pebbleyou.txt) (rockyou.txt will work too)
 
 ## Lab Prompt ##
-We conducted security assessments on 3 of the company departments. With each one, we were able to extract some hashes for various user accounts. Each department has different policies for setting passwords. Find the patterns and crack all the passwords! 
+We conducted security assessments on 3 of the company departments. With each one, we were able to extract some hashes for various user accounts. Each department has different policies for setting passwords. Find the patterns and crack all the passwords!  
+
+Download the hash files [here!](/assets/files/PasswordCracking/PC1025.7z)
+
 
 **Database 1** 
 ```bash
