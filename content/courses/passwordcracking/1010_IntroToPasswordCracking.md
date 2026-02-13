@@ -2,7 +2,7 @@
 title: PC1010 - Intro to Password Cracking
 subtitle: Password Cracking Theory and the Importance of Strong Passwords
 date: 2026-02-03
-#lastmod: 2026-02-03
+lastmod: 2026-02-03
 tags: [Lessons, PasswordCracking]
 draft: false
 ---

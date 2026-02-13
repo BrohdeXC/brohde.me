@@ -1,8 +1,8 @@
 ---
-title: PC1025 - Hashcat Lab
+title: PC1515 - Hashcat Lab
 # subtitle: Hashcat Lab
-date: 2026-02-06
-lastmod: 2026-02-13
+date: 2026-02-05
+lastmod: 2026-02-12
 tags: [Labs, PasswordCracking]
 draft: false
 ---
@@ -109,3 +109,6 @@ b4bc74022136b55bc2292808cc262f1a:indigofrog
 fcc0d3f957606f61aeb8448e449509e5:whitefox
 89049e99c4fd6a21863b430f0ccae5ee:bluecat
 ```
+
+---
+## Next Topic: [PC1520 - Intro to John The Ripper](/courses/passwordcracking/1520_introtojohn)

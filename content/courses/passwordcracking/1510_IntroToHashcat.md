@@ -1,7 +1,7 @@
 ---
-title: PC1020 - Intro to Hashcat
+title: PC1510 - Intro to Hashcat
 # subtitle: 
-date: 2026-02-05
+date: 2026-02-04
 lastmod: 2026-02-12
 tags: [Lessons, PasswordCracking]
 draft: false
@@ -184,3 +184,7 @@ By now, all the passwords should have been discovered! We can check this by runn
 
 ![Cracked Hashes](/assets/img/CoursePics/PasswordCracking/Hashcat_CrackedHashes.png)  
 Harder passwords might require multiple attempts of different masks, wordlists, and combinations to get it right. Every hash can theoretically be cracked, it's just a matter of time (sometimes trillions of years) before we get them!
+
+---
+## Lab Course: [PC1515 - Hashcat Lab](/courses/passwordcracking/1515_hashcatlab)
+## Next Topic: [PC1520 - Intro to John The Ripper](/courses/passwordcracking/1520_introtojohn)

@@ -1,8 +1,8 @@
 ---
-title: PC1030 - Intro to John the Ripper
+title: PC1520 - Intro to John the Ripper
 subtitle: Intro to John the Ripper
-date: 2026-02-13
-# lastmod: 2026-02-11
+date: 2026-02-06
+lastmod: 2026-02-12
 tags: [Lessons, PasswordCracking]
 draft: false
 ---
@@ -157,3 +157,7 @@ logger:logger13579
 hacker:2048hacker
 ```
 Harder passwords might require multiple attempts of different masks, wordlists, and combinations to get it right. If those don't work, it might be worth looking into custom rules, which we'll cover in PC2030!
+
+---
+## Lab Course: [PC1525 - JtR Lab](/courses/passwordcracking/1525_johnlab)
+## Next Topic: [PC1530 - Intro to Ophcrack](/courses/passwordcracking/1530_introtoophcrack)

@@ -1,7 +1,8 @@
 ---
-title: PC1035 - John Lab
+title: PC1525 - JohnTheRipper Lab
 #subtitle: John the Ripper Lab
-date: 2026-02-13
+date: 2026-02-07
+lastmod: 2026-02-13
 tags: [Labs, PasswordCracking]
 draft: false
 ---
@@ -91,3 +92,6 @@ hashes3.txt - MD5 - Incremental attack
 hashes_crypt.txt - Crypt - Single Crack attack  
 `unshadow passwd.txt shadow.txt > hashes_crypt.txt`  
 `john --format=Crypt --single hashes3.txt`
+
+---
+## Next Topic: [PC1530 - Intro to Ophcrack](/courses/passwordcracking/1530_introtoophcrack)
