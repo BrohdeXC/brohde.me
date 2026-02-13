@@ -62,7 +62,7 @@ fcc0d3f957606f61aeb8448e449509e5
 
 ## Solutions ##
 Database 1 - SHA256 - Dictionary attack w/ pebbleyou.txt  
-```solutions
+```bash
 d5cec0a4dab34d51eaa57c97adf7a3262c43a2f1c17369ceb11b40e06714f087:secureme123
 f1da9421394e4892f3ed37287493ec319f321d23c1fa6c4dba10fbdda95186a3:catlovermeme
 becedec1e34ba27a9684af85e6e49c5e4e5124520b6ba059820f8b4bb60c328f:securityadmin284650
@@ -70,7 +70,7 @@ becedec1e34ba27a9684af85e6e49c5e4e5124520b6ba059820f8b4bb60c328f:securityadmin28
 d0a5e64798ce47fddd565cbe02e22ffeda835dd819b15528dd62e80e45328a75:loveredbull
 ```
 Database 2 - MD5 - Hybrid attack w/ [names](https://github.com/dominictarr/random-name/blob/master/first-names.txt) + ?d?d?d?d  
-```solutions
+```bash
 1d06f250bea546b9862fab4751a6f056:Steve1951
 12169d5a079252c9ba59973f163c4018:Mary1976
 46eb1366c2330cf43708fac464ee621a:Joseph1980
@@ -84,7 +84,7 @@ c71e16bc1cb82eafb1a71c3568fcb630:Emily1965
 ```
 Database 3 - MD5 - Combinator attack w/ [colors](https://gist.github.com/mordka/c65affdefccb7264efff77b836b5e717) + [animals](https://gist.github.com/atduskgreg/3cf8ef48cb0d29cf151bedad81553a54)  
 
-```solutions
+```bash
 013c17dfad9f7825409dd056dcf5e23f:greencow
 20f016fb1b49fc30be42b16681095894:redgoose
 92bd80147f593124b29284f5f86a1a33:pinksquirrel
