@@ -1,3 +1,21 @@
+# Beginner Courses
+### [PC1010 - Intro to Password Cracking](/courses/passwordcracking/1010_introtopasswordcracking)
+An introductory lesson for password cracking. Covers the idea behind using hashes, how they are cracked, and various types of offline password attacks.
+
+### [PC1510 - Intro to Hashcat](/courses/passwordcracking/1510_introtohashcat)
+An introductory lesson to Hashcat. This lesson will cover the usage of the dictionary, combinator, brute force, and hybrid attack modes.
+
+### [PC1520 - Intro to JohnTheRipper](/courses/passwordcracking/1520_introtojohn)
+An introductiory lesson to JohnTheRipper. This lesson covers the wordlist, single crack, mask, and incremental attack modes.
+
+### [PC1530 – Intro to OphCrack](/courses/passwordcracking/1530_introtoophcrack)
+An introductory lesson to OphCrack. This lesson covers the basics of rainbow tables and their usage in cracking passwords.
+
+# Beginner Labs
+### [PC1515 - Hashcat Lab](/courses/passwordcracking/1515_hashcatlab) 
+Using Hashcat to crack 3 different sets of hashes
+### [PC1525 – JtR Lab](/courses/passwordcracking/1525_johnlab)
+
 # Intermediate Courses
 ## [2010 – Gathering Hashes](/lessons/passwordcracking/)
 - Where hashes come from
@@ -9,9 +27,6 @@
   - Secretsdump
   - Responder
   - LSASS dumps
-
-## [2015 – Hash Gathering Lab](/lessons/passwordcracking/)
-- Practical hash extraction exercises
 
 ## [2100 – Generating Rulesets with mp64](/lessons/passwordcracking/)
 - Why rules matter more than wordlists
@@ -27,15 +42,19 @@
 - Session management and restores
 - Performance optimization
 
-## [2515 – Hashcat Lab 2](/lessons/passwordcracking/)
-- Advanced attack workflows
-- Rule-based cracking
-
 ## [2520 – Advanced John the Ripper](/lessons/passwordcracking/)
 - Custom rules
 - Incremental mode tuning
 - External mode concepts
 - Performance comparison vs Hashcat
+
+# Intermediate Labs
+## [2015 – Hash Gathering Lab](/lessons/passwordcracking/)
+- Practical hash extraction exercises
+
+## [2515 – Hashcat Lab 2](/lessons/passwordcracking/)
+- Advanced attack workflows
+- Rule-based cracking
 
 ## [2525 – John the Ripper Lab 2](/lessons/passwordcracking/)
 - Advanced rule usage
