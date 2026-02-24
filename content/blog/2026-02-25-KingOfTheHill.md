@@ -6,7 +6,7 @@ date: 2026-02-25
 tags: [Presentations, Networks]
 draft: true
 ---
-This week for the Student Organization of Cybersecurity, we're working on building a knockout-style CTF to run for the hour. This is meant to be a warmup to get people excited about competing in NCL and the In-House CTF we're building in March. I'm primarily focused on creating password cracking and network challenges, and I'll talk about my process in building those out, as well as any other challenges I make.
+For Cybersecurity club this week, we built a knockout-style CTF to run for the hour. This is meant to be a warmup to get people excited about competing in NCL and the In-House CTF we're building in March. I'm primarily focused on creating password cracking and network challenges, and I'll talk about my process in building those out, as well as any other challenges I make.
 
 <!--more-->
 ![USU{BLG_SYT_3612}](/assets/img/Projects/CTFs/KOTH.png)
@@ -57,16 +57,22 @@ After trying that, I quickly found SCP to be a problem because it uses SSH. Who 
 
 Scapy is super cool because it allows us to craft packets that we can inject into the network. This makes it super easy for me to hide things in the network without setting up a bunch of infrastructure. It's been a while since I used this tool, so I have to refresh on a lot of documentation. By the way, the open source intelligence flаg is ᴜsᴜ(opnsrcmstr), but don't copy-paste it, because I used cryllic variations and other symbols in order to avoid control-find. The format of this f1ag is all uppercase, with curly brackets instead of parentheses.
 
-My medium challenge is what some people would consider evil. The title is `007 - NoTimeTo!Die`. Scapy makes some light work out of this, but it's a beautiful challenge. I built out a script that would let me input some string and it sends it out as individual packets as a spoofed IP. I like it quite a bit. I even added a random string that attaches itself to the end of each packet just to taunt the students.
+My medium challenge is what some people would consider evil. The title is `007 - NoTimeTo!Die`. Scapy makes some light work out of this, but it's a beautiful challenge. I built out a script that would let me input some string and it sends it out as individual packets as a spoofed IP. This was probably my favorite challenge to make for this CTF. I had a good time learning how to use Scapy for it.
 
 The easy challenge I called `DigNSlookup`. Neither of those tools were helpful to the challenge, but I did spam them a lot in creating noise for the pcap. Again, I used Scapy to send a packet that would gather the information that I wanted. In hindsight, I could have just used Dig for the same information, but I'm determined to getting better at Scapy because I think it's super cool.
 
 ## OSINT ##
-My favorite kind of challenges for OSINT are GeoGuesser style. Unfortunately I did not have enough time to fly somewhere, take pictures, add timestamps, and make people use shadows to find the location. However, I have hidden a flag somewhere on my website. Maybe it's in this post? Maybe it's in my courses? Maybe I hid it in one of my password cracking labs? It isn't usu{nottheflag}, but I thought it would be funny to put that here as a red herring. 
+My favorite kind of challenges for OSINT are GeoGuesser style. Unfortunately I did not have enough time to fly somewhere, take pictures, add timestamps, and make people use shadows to find the location. However, I have hidden a flag somewhere on my website. Maybe it's in this post? Maybe it's in my courses? Maybe I hid it in one of my password cracking labs? It isn't USU{NOT-THE-FLAG}, but I thought it would be funny to put that here as a red herring. 
 
 I would love to find the Google Street View car some day just to have a massive banner with a CTF flag on it. Wouldn't that be so cool to send your friends on a CTF to find your location only to find out that it was a flag all along? Maybe some day. 
 
-Anyways, OSINT is pretty cool, I only really made the one challenge posted somewhere on this website, so there isn't a ton of things to talk about in this section.
+Anyways, OSINT is pretty cool, I only really made the one challenge posted somewhere on this website, so there isn't much to talk about in this section.
 
 ## Cryptography ##
-Steganography is one of my favorite forms of cryptography. The idea of hiding a chunk of data in an image is really cool to me. I decided that I'll make 3 separate cryptography challenges. Steganography, a cipher, and something using Cyberchef's image feature. I've never really had the opportunity to use some of the more complex Cyberchef operations in a CTF, so I wanted to try and build one out for the students to try!
+Steganography is one of my favorite forms of cryptography. The idea of hiding a chunk of data in an image is really cool to me. I decided that I'll make 3 separate cryptography challenges. Steganography, a cipher, and something using Cyberchef's advanced features. I've never really had the opportunity to use some of the more complex Cyberchef operations in a CTF, so I wanted to try and build one out for the students to try!
+
+For the first challenge I opted for a Cipher. Given that I've played music my whole life, I wanted to build something that would go good with that. I saved the file as a png, so maybe I'll throw off some people a little bit as they search for Steganography.
+
+The next challenge was the actual steganography. Nothing too complex, just hiding some data in a file. Not terribly exciting, but good knowledge to know.
+
+The last challenge is where I really got to stretch some of my skills. Looking into CyberChef and a bunch of its tools, I realized quickly that there is a LOT of options. Honestly, it was a bit overwhelming to go through these, but I found something that I think is fun. However, it took me too long to realize that a screenshot would destroy the alpha of the RGBA values. A moment of weakness for a challenge of awesome.
