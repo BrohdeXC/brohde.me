@@ -31,14 +31,6 @@ QOL Tip: Set up networking in the imager so that you can use SSH as soon as you 
 ## Assembly
 Putting Pwnhound together is pretty straightforward. Put the USB Hat onto the Pi using the GPIO headers, attach the display to that (also GPIO Headers), and then attach the battery if available. Put the whole device into a case to keep it from getting squished in a bag, and then attach the WiFi adapter to one of the USB ports.
 
-
-{{< gallery caption-effect="fade" >}}
-  {{< figure thumb="-thumb" link="/img/hexagon.jpg" >}}
-  {{< figure thumb="-thumb" link="/img/sphere.jpg" caption="Sphere" >}}
-  {{< figure thumb="-thumb" link="/img/triangle.jpg" caption="Triangle" alt="This is a long comment about a triangle" >}}
-{{< /gallery >}}
-
-
 ## Connecting and Installing PwnHound ##
 SSH into the Pi and follow my GitHub documentation.
 
