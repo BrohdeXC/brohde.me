@@ -2,7 +2,7 @@
 title: King of the Hill
 subtitle: Building CTF Challenges For This Week's Club Event
 date: 2026-02-24
-# lastmod: 2026-02-03
+lastmod: 2026-02-26
 tags: [Club]
 draft: false
 ---
@@ -11,18 +11,9 @@ For Cybersecurity club this week, we built a knockout-style CTF to run for the h
 <!--more-->
 ![KingOfTheHill](/assets/img/Projects/CTFs/KOTH.png)
 # The CTF Itself #
-The point system of this CTF was pretty straightforward. Instead of just getting points for capturing the flag, points would accumulate based on how long you have the flag before other teams capture it. Once other teams start getting the flag from the same challenge, the points would be split across the teams until every team has gotten the flag. At that point, it would no longer generate points. 
+The point system of this CTF was pretty straightforward. Instead of just getting points for capturing the flag, points would accumulate based on how long you have the flag before other teams capture it. Opposing teams are then able to "steal" flags, and the original team would have to steal it back. Whoever had more points at the end of the hour would win the competition.
 
 Since our club meetings are only an hour long each week, I needed to keep the difficulty in the easy to medium level range.
-
-The point breakdown for a group of 4 teams would look like this:
-| Who Has The Flag | Team 1 | Team 2 | Team 3 | Team 4 |
-| :------------: | :------: | :-----: | :------: | :------: |
-| Team 1 | 100% / min | 0% / min | 0% / min | 0% / min |
-| 1 and 3 | 50% / min | 0% / min | 50% / min | 0% / min |
-| 1, 3, and 4 | 33% / min | 0% / min | 33% / min | 33% / min |
-| Everyone | 0% / min | 0% / min | 0% / min | 0% / min |
-
 
 # Building My Challenges # 
 The categories that I'm most comfortable building challenges in are password cracking, cryptography, and OSINT. However, I'm quite interested in network log analysis and am going to be attempting to create some challenges in that category as well.
@@ -74,9 +65,15 @@ Steganography is one of my favorite forms of cryptography. The idea of hiding a 
 For the first challenge, `MusicMan` I opted for a Cipher. Given that I've played music my whole life, I wanted to build something that would go good with that. I saved the file as a PNG, so maybe I'll throw off some people a little bit as they search for steganography or metadata.
 
 The next challenge was the actual steganography. `NoProblemCTF` was nothing too complex, just hiding some data in a file. Not terribly exciting, but good knowledge to know. Obviously, I had to hide the data in a meme that I made. For those of you that want to see it, here it is:
+
 ![NoProblemCTF](/assets/img/Projects/CTFs/NoProblemCTF.jpg)
 
 The last challenge, `Colors`, was where I really got to play with some new stuff. Looking into CyberChef and a bunch of its tools, I realized quickly that there is a LOT of options. Honestly, it was a bit overwhelming to go through these, but I found something that I think is fun. However, it took me too long to realize that a screenshot would destroy the alpha of the RGBA values. I got rid of the alphas because if they caused problems for me, they would probably cause problems for the students. The goal was to give something that was just vague enough that students that caught on would have it done fast, but could waste time otherwise.
 
 # Overall Thoughts #
-Overall, I had lots of fun creating these challenges. Some of them got me to try out new tools like Gimp, and others refreshed me on tools I haven't used in a while like Scapy. I think after making these network Challenges, I might have a new favorite category... Nah, password cracking will always have a special place in my heart. I'm looking forward to making new challenges for the In-House CTF this March. We'll be bringing a couple more people on to help build that one, so hopefully we'll see more logging and forensics challenges!
+Overall, I had lots of fun creating these challenges. Some of them got me to try out new tools like Gimp, and others refreshed me on tools I haven't used in a while like Scapy. I think after making these network challenges, I might have a new favorite category... Nah, password cracking will always have a special place in my heart. I'm looking forward to making new challenges for the In-House CTF this March. We'll be bringing a couple more people on to help build that one, so hopefully we'll see more logging and forensics challenges!
+
+# After The Event - Lessons Learned #
+There were only a couple of problems that we plan to fix for the in-house CTF. The first one was scoring balance. All of our challenges rewarded the same number of points, which made it difficult to incentivize the harder challenges compared to simply solving the easier ones.
+
+The next problem we had was clarity in formatting and cipher details. For example, MusicMan was too complicated because there were too many possible ciphers to try, and the one I chose was not obvious in dCode. The change I would make next time would be to use a clearer cipher or hint at the type somewhere in the prompt. The cipher also removed the flag formatting, which was not clearly stated.
