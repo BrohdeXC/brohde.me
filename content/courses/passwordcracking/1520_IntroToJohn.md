@@ -6,7 +6,7 @@ lastmod: 2026-02-12
 tags: [Lessons, PasswordCracking]
 draft: false
 ---
-An introductiory lesson to JohnTheRipper. This lesson covers the wordlist, single crack, incremental, and mask attack modes.
+An introductory lesson to JohnTheRipper. This lesson covers the wordlist, single crack, incremental, and mask attack modes.
 
 <!--more-->
 ## Prerequisites ##
@@ -61,7 +61,7 @@ There are 4 basic JtR modes that we'll be covering:
   * `Lower` - Lowercase letters
   * `Alpha` - Uppsercase letters
   * `Digits` - zero through tem
-  * `Alnum` - Alphanumberic characters
+  * `Alnum` - Alphanumeric characters
 
 ## Types of Attacks – Mask Mode
 * Only supported in Jumbo mode
@@ -78,7 +78,7 @@ There are 4 basic JtR modes that we'll be covering:
 
 ## Types of Attacks – Single Crack Mode
 * One of John's strongest features
-* Applies comon variations to existing user information to generate passwords
+* Applies common variations to existing user information to generate passwords
 * Great to start with if it seems likely that the username will be similar to the password
 * Use this one if you have a the `/etc/shadow` file or are doing a password audit.
   * Use `unshadow` to combine the passwd and shadow files

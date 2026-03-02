@@ -1,6 +1,6 @@
 ---
 title: Network Hacking Course
-# subtitle: Offline Password Recovery From Hashcat to Rainbow Tables
+# subtitle: 
 date: 2026-02-15
 lastmod: 2026-02-15
 tags: [Courses]

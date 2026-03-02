@@ -30,17 +30,17 @@ Use this information only with explicit permission from the owner of the data. *
 #### From [kali.org](https://www.kali.org/tools/ophcrack/)
 "Ophcrack is a Windows password cracker based on a time-memory trade-off using rainbow tables. This is a new variant of Hellman’s original trade-off, with better performance. It recovers 99.9% of alphanumeric passwords in seconds."
 
-Ophcrack is primarily used on older LM and NTLM hashes (Windows Vista, XP, and 7), therefore it is not extremely relevent today.
+Ophcrack is primarily used on older LM and NTLM hashes (Windows Vista, XP, and 7), therefore it is not extremely relevant today.
 
 ## Installing Ophcrack ##
-Debian/Ubuntu/Kali: `sudo apt insatll ophcrack`  
+Debian/Ubuntu/Kali: `sudo apt install ophcrack`  
 Arch: `sudo pacman -S ophcrack`  
 Brew: `brew install ophcrack`  
 
 ---
 
 # What are Rainbow Tables? #
-Rainbow tables are precomputed tables of hashes that can be used to reverse hash functions. Instead of hashing a wordlist and then comparing the hash, the passwords are already solved for. Imagine having a really large spreadsheet of password-hash combinations that you can CTRL-F. The tradeoff for rainbow tables' speed comes in storage, in which larger tables can take up terrabytes of space.
+Rainbow tables are precomputed tables of hashes that can be used to reverse hash functions. Instead of hashing a wordlist and then comparing the hash, the passwords are already solved for. Imagine having a really large spreadsheet of password-hash combinations that you can CTRL-F. The tradeoff for rainbow tables' speed comes in storage, in which larger tables can take up terabytes of space.
 
 ## Downloading Rainbow Tables ##
 The best place to get rainbow tables is from [Ophcrack's website.](https://ophcrack.sourceforge.io/tables.php) The larger tables require torrent, but this course will only use `Vista Proba Free`

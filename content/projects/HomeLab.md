@@ -4,6 +4,7 @@ subtitle: The rack of theseus
 date: 2024-12-25
 tags: [projects, current]
 #bigimg: [{src: "/img/triangle.jpg", desc: "Triangle"}, {src: "/img/sphere.jpg", desc: "Sphere"}, {src: "/img/hexagon.jpg", desc: "Hexagon"}]
+draft: false
 ---
 Like every good network nerd, I've got a homelab. From learning about firewall rules, to slapping an ungodly amount of raspberry pis together, the homelab is a great place to [destroy, build, destroy](https://www.youtube.com/watch?v=qBYd2mXIu6c).
 <!--more-->

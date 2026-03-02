@@ -19,7 +19,7 @@ Many programmers just want something that works, but fewer think about how someo
 * **Client side validation** - Users of the website can change information that affects the server
 * **Poor sanitation** - Leading us to the next vulnerability
 ## Injection ##
-Injection is when someone intentionally inputs something that the program doens't handle properly. There's quite a few different types of injection attacks
+Injection is when someone intentionally inputs something that the program doesn't handle properly. There's quite a few different types of injection attacks
 * **Code injection** - Attackers insert and execute malicious code by exploiting improper handling of untrusted input
 * **SQL injection** - Malicious SQL statements are inserted into an application to manipulate a database in ways that they shouldn't
 * **Command injection** - Attackers execute system commands on a host by injection them through vulnerable application inputs

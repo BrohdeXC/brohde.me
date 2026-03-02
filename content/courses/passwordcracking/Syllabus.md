@@ -15,7 +15,7 @@ An introductory lesson for password cracking. Covers the idea behind using hashe
 An introductory lesson to Hashcat. This lesson will cover the usage of the dictionary, combinator, brute force, and hybrid attack modes.
 
 ### [PC1520 - Intro to JohnTheRipper](/courses/passwordcracking/1520_introtojohn)
-An introductiory lesson to JohnTheRipper. This lesson covers the wordlist, single crack, mask, and incremental attack modes.
+An introductory lesson to JohnTheRipper. This lesson covers the wordlist, single crack, mask, and incremental attack modes.
 
 ### [PC1530 – Intro to OphCrack](/courses/passwordcracking/1530_introtoophcrack)
 An introductory lesson to OphCrack. This lesson covers the basics of rainbow tables and their usage in cracking passwords.
