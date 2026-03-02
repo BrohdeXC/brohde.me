@@ -16,7 +16,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [Services]
   [Services.Disqus]
-    # Shortname = "XXX"
+    Shortname = "bradinrohde"
   [Services.googleAnalytics]
     # id = "XXX"
 
@@ -28,7 +28,7 @@ pygmentsCodefencesGuessSyntax = true
   favicon = "assets/img/AboutPics/BR_Logo.png"
   dateFormat = "January 2, 2006"
   commit = false
-  rss = true
+  rss = false
   comments = true
   readingTime = true
   wordCount = false
@@ -69,7 +69,7 @@ hideAuthor = true
   #stackoverflow = "users/XXXXXXX/username"
   #snapchat = "username"
   #instagram = "username"
-  #youtube = "user/username" # or channel/channelname
+  youtube = "@BrohdeDoesAThing" # or channel/channelname
   #soundcloud = "username"
   #spotify = "username"
   #bandcamp = "username"
@@ -91,14 +91,21 @@ hideAuthor = true
 
 
 [[menu.main]]
+    identifier = "about"
     name = "About"
-    url = "page/about/"
     weight = 1
 
 [[menu.main]]
-    name = "Blog"
-    url = ""
-    weight = 2
+    parent = "about"
+    name = "whoami"
+    url = "page/about/"
+    weight = 1
+
+#[[menu.main]]
+#    parent = "about"
+#    name = "Resume"
+#    url = "page/resume/"
+#    weight = 2
 
 # ------------------
 # ---- Courses -----
@@ -106,7 +113,7 @@ hideAuthor = true
 [[menu.main]]
     identifier = "courses"
     name = "Courses"
-    weight = 3
+    weight = 2
 
 # --- Password Cracking ---
 [[menu.main]]
@@ -116,7 +123,13 @@ hideAuthor = true
     url = "/courses/passwordcracking/syllabus/"
     weight = 1
 
-[[menu.main]]
+
+#[[menu.main]]
+#    parent = "courses"
+#    identifier = "networkhacking"
+#    name = "Network Hacking"
+#    url = "/sources/networkhacking/syllabus/"
+#    weight = 2
 
 # ------------------
 # ---- Projects ----
@@ -124,7 +137,7 @@ hideAuthor = true
 [[menu.main]]
     identifier = "projects"
     name = "Projects"
-    weight = 4
+    weight = 3
 
 [[menu.main]]
     parent = "projects"
@@ -158,7 +171,7 @@ hideAuthor = true
 #[[menu.main]]
 #    name = "Tags"
 #    url = "tags"
-#    weight = 3
+#    weight = 4
 
 [caches]
   [caches.images]
