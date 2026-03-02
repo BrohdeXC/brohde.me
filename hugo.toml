@@ -16,7 +16,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [Services]
   [Services.Disqus]
-    Shortname = "bradinrohde"
+#    Shortname = "@bradinrohde"
   [Services.googleAnalytics]
     # id = "XXX"
 
@@ -97,9 +97,15 @@ hideAuthor = true
 
 [[menu.main]]
     parent = "about"
+    name = "blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    parent = "about"
     name = "whoami"
     url = "page/about/"
-    weight = 1
+    weight = 2
 
 #[[menu.main]]
 #    parent = "about"
