@@ -1,15 +1,15 @@
 ---
 title: "My First Look at GOAD"
 subtitle: "If I Hate Windows So Much, Why Not Break It?"
-date: 2026-03-03
-lastmod: 2026-03-04
-tags: [GOAD]
+date: 2026-03-10
+lastmod: 2026-03-10
+tags: [GOAD, Pwning]
 draft: true
 ---
 I despise Windows. I really do. Ever since I switched to Linux from Windows, I've pushed it out of my mind. But a few weeks ago, we held a homelab night for the cybersecurity club. I brought in our most active homelab Discord members, and everyone talked about their labs, some of the things they're running, and more. It was a good event, but there was one thing that really stuck out to me. Game of Active Directory.
 
 <!--more-->
-After the event, I talked to my friend, [Breyden Summers](https://Breydensummers.github.io), about GOAD. For those of you that don't know, GOAD is a Windows Active Directory environment developed to practice penetration testing skills. Think about it as the DVWA of windows servers. There's a few different levels to it, and after hearing his recommendation, I thought I would give it a shot. 
+After the event, I talked to my friend, [Breyden Summers](https://Breydensummers.github.io), about GOAD. For those of you that don't know, GOAD is a Windows Active Directory environment developed to practice penetration testing skills. Think about it as the DVWA of Windows servers. There's a few different levels to it, and after hearing his recommendation, I thought I would give it a shot. 
 
 # Setting Up The Environment #
 There's lot's of ways to set up GOAD. On both Windows and Linux, there's support for Virtualbox, VMWare, Proxmox, AWS, and more. I opted to use Virtualbox on Kali Linux, and I had a spare laptop sitting around with enough resources to handle everything just fine. I booted up Kali, followed the documentation, and in a few hours had my laptop fan screaming in the background. Everything was set up.
@@ -24,8 +24,6 @@ The documentation gives us images of the network schema, and gives a lot of info
 ![Full GOAD Schema](/assets/img/BlogPosts/FirstGOAD/GOAD_schema.png)
 
 My goals were pretty simple:
-* Recon and Scanning
-  * Find all of those users
 * Obtain initial access
   * I need to start somewhere
 * Pivot to all of the machines
@@ -34,3 +32,33 @@ My goals were pretty simple:
   * The more the better
 * Gain enough knowledge to do the NHA (Ninja Hacker Academy)
   * The next level up, with security enabled and no schema
+# The Tools I Used #
+Scanning and Recon
+* Bash
+* Nmap
+
+Notes, Mapping, and Diagrams
+* Obsidian
+* Bloodhound
+## Scanning and Recon ##
+The first thing I did was run a quick ping sweep to get the ip addresses of each device on the network. Using Bash:
+```bash
+for i in $(seq 254); do ping -c1 -W1 192.168.56.${i} & done | grep icmp
+``` 
+This revealed 5 devices:
+```bash
+64 bytes from 192.168.56.1: icmp_seq=1 ttl=64 time=0.029 ms
+64 bytes from 192.168.56.10: icmp_seq=1 ttl=128 time=0.119 ms
+64 bytes from 192.168.56.11: icmp_seq=1 ttl=128 time=0.157 ms
+64 bytes from 192.168.56.12: icmp_seq=1 ttl=128 time=0.130 ms
+64 bytes from 192.168.56.100: icmp_seq=1 ttl=255 time=0.034 ms
+```
+Running the ping sweep but saving the IPs as a text file:
+```bash
+for i in $(seq 254); do ping 192.168.56.${i} -c1 -W1 & done | grep icmp | cut -d ' ' -f 4 | cut -d ':' -f 1 > ips.txt
+```
+Using Nmap on this IP list, scanning all ports and checking the service versions
+```bash
+nmap -iL ips.txt -sV -p-
+```
+With this information, we can start mapping things around. We find

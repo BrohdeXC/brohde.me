@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "6df81b104122cda6",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f18e13183940df3",
+        "type": "split",
+        "children": [
+          {
+            "id": "8e6509e55de2aeee",
+            "type": "tabs",
+            "dimension": 61.206896551724135,
+            "children": [
+              {
+                "id": "c4b9595e6207e6f5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "content/blog/2026-03-10-FirstLookGOAD.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "2026-03-10-FirstLookGOAD"
+                }
+              }
+            ]
+          },
+          {
+            "id": "863d823b73754207",
+            "type": "tabs",
+            "dimension": 38.793103448275865,
+            "children": [
+              {
+                "id": "9a139a84a2a1e048",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "static/assets/img/BlogPosts/FirstGOAD/GOAD_Nmap.canvas",
+                    "viewState": {
+                      "x": -364.8416087386735,
+                      "y": -508.4063472069126,
+                      "zoom": -1.2000000000000002
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "GOAD_Nmap"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "088623e8bb1e6629",
+    "type": "split",
+    "children": [
+      {
+        "id": "73af69b326e9a560",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9332b6a6dac51bf1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "785d8fa2a4098c5f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f356bc2d466ef515",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "ae42e0dff3991c23",
+    "type": "split",
+    "children": [
+      {
+        "id": "46df5b5dee2dee65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "361b5766b1132945",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/blog/2026-03-10-FirstLookGOAD.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2026-03-10-FirstLookGOAD"
+            }
+          },
+          {
+            "id": "a4b05df87c5369e1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/blog/2026-03-10-FirstLookGOAD.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2026-03-10-FirstLookGOAD"
+            }
+          },
+          {
+            "id": "f9cb718192aed9e0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0f280349b069e756",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "3e05beea08328a93",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/blog/2026-03-10-FirstLookGOAD.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2026-03-10-FirstLookGOAD"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c4b9595e6207e6f5",
+  "lastOpenFiles": [
+    "static/assets/img/BlogPosts/FirstGOAD/GOAD_Nmap.canvas",
+    "content/blog/2026-03-10-FirstLookGOAD.md",
+    "public/assets/img/BlogPosts/FirstGOAD/GOAD_Nmap.canvas",
+    "public/assets/img/BlogPosts/FirstGOAD/Untitled.canvas"
+  ]
+}
