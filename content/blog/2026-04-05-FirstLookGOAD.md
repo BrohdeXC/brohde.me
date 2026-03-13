@@ -1,12 +1,12 @@
 ---
-title: "My First Look at GOAD"
-subtitle: "If I Hate Windows So Much, Why Not Break It?"
-date: 2026-03-10
-lastmod: 2026-03-10
+title: "Learning BloodHound w/ GOAD"
+subtitle: "Makes Me Feel Like A Kid In A Candy Shop"
+date: 2026-04-05
+#lastmod: 2026-03-10
 tags: [GOAD, Pwning]
 draft: true
 ---
-I despise Windows. I really do. Ever since I switched to Linux from Windows, I've pushed it out of my mind. But a few weeks ago, we held a homelab night for the cybersecurity club. I brought in our most active homelab Discord members, and everyone talked about their labs, some of the things they're running, and more. It was a good event, but there was one thing that really stuck out to me. Game of Active Directory.
+About 2 months ago, we held a homelab night for the cybersecurity club. I brought in our most active homelab Discord members, and everyone talked about their labs, some of the things they're running, and more. It was a good event, but there was one thing that really stuck out to me. Game of Active Directory.
 
 <!--more-->
 After the event, I talked to my friend, [Breyden Summers](https://Breydensummers.github.io), about GOAD. For those of you that don't know, GOAD is a Windows Active Directory environment developed to practice penetration testing skills. Think about it as the DVWA of Windows servers. There's a few different levels to it, and after hearing his recommendation, I thought I would give it a shot. 
@@ -19,7 +19,7 @@ I'd be lying if I said I didn't run into issues. All of them were my fault thoug
 I also wanted to change the octet that the VMs were running on. The installer script did not seem to like that at all. I decided the default was fine for now, as the purpose of this was to learn AD, not fight setup for hours.
 
 # GOAD Schema and Goals #
-The documentation gives us images of the network schema, and gives a lot of information about the users. Because this is my first time working with this environment and AD in general, I'll be looking a lot of things up, referring to the writeup when necessary. 
+The documentation gives us images of the network schema, and gives a lot of information about the users. Because this was my first time working with this environment and AD in general, I really got to stretch my limits, and learned a lot through hitting my head on a wall.
 
 ![Full GOAD Schema](/assets/img/BlogPosts/FirstGOAD/GOAD_schema.png)
 
@@ -32,6 +32,7 @@ My goals were pretty simple:
   * The more the better
 * Gain enough knowledge to do the NHA (Ninja Hacker Academy)
   * The next level up, with security enabled and no schema
+
 # The Tools I Used #
 Scanning and Recon
 * Bash
@@ -39,7 +40,6 @@ Scanning and Recon
 
 Notes, Mapping, and Diagrams
 * Obsidian
-* Bloodhound
 ## Scanning and Recon ##
 The first thing I did was run a quick ping sweep to get the ip addresses of each device on the network. Using Bash:
 ```bash
@@ -61,4 +61,3 @@ Using Nmap on this IP list, scanning all ports and checking the service versions
 ```bash
 nmap -iL ips.txt -sV -p-
 ```
-With this information, we can start mapping things around. We find
