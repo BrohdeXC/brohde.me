@@ -10,20 +10,16 @@
           {
             "id": "8e6509e55de2aeee",
             "type": "tabs",
-            "dimension": 61.206896551724135,
+            "dimension": 61.20689655172414,
             "children": [
               {
                 "id": "c4b9595e6207e6f5",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "content/blog/2026-03-10-FirstLookGOAD.md",
-                    "mode": "source",
-                    "source": false
-                  },
+                  "type": "empty",
+                  "state": {},
                   "icon": "lucide-file",
-                  "title": "2026-03-10-FirstLookGOAD"
+                  "title": "New tab"
                 }
               }
             ]
@@ -110,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ae42e0dff3991c23",
@@ -216,7 +211,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "c4b9595e6207e6f5",
+  "active": "9332b6a6dac51bf1",
   "lastOpenFiles": [
     "static/assets/img/BlogPosts/FirstGOAD/GOAD_Nmap.canvas",
     "content/blog/2026-03-10-FirstLookGOAD.md",

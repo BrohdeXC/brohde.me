@@ -2,7 +2,7 @@
 title: Graduation
 subtitle: "...Those 5 Years Are The Best 6 Years Of Your Life"
 date: 2026-04-30
-# lastmod: 2026-02-03
+# lastmod: 2026-
 tags: []
 draft: true
 ---
@@ -19,4 +19,3 @@ draft: true
 - Dr. Cassandra McCall
 **Thank You To My Academic Advisors For Believing In Me**
 - Robin Reid
-- Cheyanne Maughan
