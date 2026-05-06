@@ -2,9 +2,9 @@
 title: Graduation
 subtitle: "...Those 5 Years Are The Best 6 Years Of Your Life"
 date: 2026-04-30
-# lastmod: 2026-
+lastmod: 2026-05-05
 tags: [Education]
-draft: true
+draft: false
 ---
 I did it. After all these years, I've leveled up high enough to unlock the "Real World" zone. Today I don my +4 INT cap and +5 WIS gown armor set and walk across into a new phase of life. What's next for me? 
 
