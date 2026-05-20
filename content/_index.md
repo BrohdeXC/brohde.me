@@ -17,7 +17,7 @@
       <p>I love teaching the skills that I learn to others, which is why I'm developing a <a href="/courses/passwordcracking/syllabus">password cracking course.</a></p>
       <p></p>
       <p>Check out my latest <a href="/blog/2026-04-30-graduation">blog post</a> and my latest  <a href="/projects/shellfire">project!</a></p>
-      <p>Also watch my latest YouTube video!</p>
+      <p>Also check out my <a href="https://sessionize.com/bradin-rohde/">conference talks</a> and my latest <a href="https://www.youtube.com/embed/Mt9D6AqybYg?si=IQJskxpoaNpJ9hC3">YouTube video!</a></p>
       <iframe width="100%" height="320" src="https://www.youtube.com/embed/Mt9D6AqybYg?si=IQJskxpoaNpJ9hC3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
 </section>
