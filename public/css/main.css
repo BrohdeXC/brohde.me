@@ -1027,3 +1027,31 @@ ul.share li:hover .fab {
 .copyCodeButton:hover {
     background-color: #e0e0e0;
 }
+
+/* Front Page Terminal CSS */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #000000;
+}
+
+.terminal-line {
+    font-family: monospace;
+    font-size: 1.4rem;
+    color: #22c55e;
+    background-color: #000000;
+    padding: 1rem;
+}
+
+.cursor {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}

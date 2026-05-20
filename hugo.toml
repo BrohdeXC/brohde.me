@@ -23,10 +23,11 @@ pygmentsCodefencesGuessSyntax = true
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
   subtitle = "Cybersecurity x Mechanical Engineering"
-  mainSections = ["blog"]
+  mainSections = [""]
   logo = "assets/img/AboutPics/Bradin_Cropped.png" # Expecting square dimensions
   favicon = "assets/img/AboutPics/BR_Logo.png"
   dateFormat = "January 2, 2006"
+  since = 2025
   commit = false
   rss = false
   comments = true
@@ -36,8 +37,9 @@ pygmentsCodefencesGuessSyntax = true
   socialShare = true
   delayDisqus = true
   showRelatedPosts = true
+  navShort = true
 #  cusdisID = "XXX" # Get your App id from cusdis.com
-hideAuthor = true
+  hideAuthor = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 # disclaimerText = "The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
 
@@ -98,7 +100,7 @@ hideAuthor = true
 [[menu.main]]
     parent = "about"
     name = "blog"
-    url = ""
+    url = "blog/"
     weight = 1
 
 [[menu.main]]

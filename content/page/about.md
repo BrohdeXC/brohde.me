@@ -1,8 +1,15 @@
 ---
 title: whoami
-subtitle: andhowdidigethere
 comments: false
 ---
+<section class="hero">
+  <div class="terminal-line">
+      <span class="prompt">root@brohde:~# whoami</span>
+      <span id="rotating-text"></span>
+      <span class="cursor">█</span>
+  </div>
+</section>
+
 I'm Bradin Rohde, a mechanical engineering student and cybersecurity club president at Utah State University. My goal is to combine my knowledge of engineering and security to help make more stable security systems. 
 
 Most of my time right now is dedicated to finishing up my degree, working on [ShellFire](projects/shellfire) for the class that I TA for, and designing 3D models in SolidWorks for Shasta Cloud.
