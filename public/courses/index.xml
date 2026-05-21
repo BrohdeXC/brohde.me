@@ -2,23 +2,10 @@
  &lt;div class="terminal-line"&gt;
  &lt;p&gt;root@brohde:~# cat PasswordCracking.txt&lt;/p&gt;
  &lt;p&gt;Welcome to one of my favorite subjects! Here we'll cover password cracking techniques from hash to cracked! More courses to come!&lt;/p&gt;
- &lt;p&gt;&lt;/p&gt;
- &lt;p&gt;root@brohde:~# cat Syllabus.md&lt;/p&gt;
- &lt;p&gt;# Beginner Courses&lt;br&gt;
- ### &lt;a href-"/courses/passwordcracking/1010_introtopasswordcracking"&gt;PC1010 - Intro to Password Cracking&lt;/a&gt;&lt;br&gt;
- An introductory lesson for password cracking. Covers the idea behind using hashes, how they are cracked, and various types of offline password attacks.&lt;br&gt;&lt;br&gt;
- ### &lt;a href-"/courses/passwordcracking/1510_introtohashcat"&gt;PC1510 - Intro to Hashcat&lt;/a&gt;&lt;br&gt;
- An introductory lesson to Hashcat. This lesson will cover the usage of the dictionary, combinator, brute force, and hybrid attack modes.
- &lt;br&gt;&lt;br&gt;
- ### &lt;a href-"/courses/passwordcracking/1520_introtojohn"&gt;PC1520 - Intro to JohnTheRipper&lt;/a&gt;&lt;br&gt;
- An introductory lesson to JohnTheRipper. This lesson covers the wordlist, single crack, mask, and incremental attack modes.
- &lt;br&gt;&lt;br&gt;
- ### &lt;a href-"/courses/passwordcracking/1530_introtoophcrack"&gt;PC1530 – Intro to OphCrack&lt;/a&gt;&lt;br&gt;
- An introductory lesson to OphCrack. This lesson covers the basics of rainbow tables and their usage in cracking passwords.
- &lt;br&gt;&lt;br&gt;
- # Beginner Labs&lt;br&gt;
- ### &lt;a href-"/courses/passwordcracking/1515_hashcatlab"&gt;PC1515 - Hashcat Lab&lt;/a&gt;&lt;br&gt;
- Using Hashcat to crack 3 different sets of hashes&lt;br&gt;&lt;br&gt;
- ### &lt;a href-"/courses/passwordcracking/1525_johnlab"&gt;PC1525 – JtR Lab&lt;/a&gt;&lt;br&gt;
- Using John the Ripper to crack 3 different sets of hashes&lt;br&gt;&lt;br&gt;
- &lt;/p&gt;</description></item></channel></rss>
+ &lt;/div&gt;
+&lt;/section&gt;
+&lt;h1 id="beginner-courses"&gt;Beginner Courses&lt;/h1&gt;
+&lt;h3 id="pc1010---intro-to-password-cracking"&gt;&lt;a href="https://brohde.me/courses/passwordcracking/1010_introtopasswordcracking"&gt;PC1010 - Intro to Password Cracking&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;An introductory lesson for password cracking. Covers the idea behind using hashes, how they are cracked, and various types of offline password attacks.&lt;/p&gt;
+&lt;h3 id="pc1510---intro-to-hashcat"&gt;&lt;a href="https://brohde.me/courses/passwordcracking/1510_introtohashcat"&gt;PC1510 - Intro to Hashcat&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;An introductory lesson to Hashcat. This lesson will cover the usage of the dictionary, combinator, brute force, and hybrid attack modes.&lt;/p&gt;</description></item></channel></rss>
