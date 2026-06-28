@@ -1,2 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on Bradin Rohde</title><link>https://brohde.me/tags/python/</link><description>Recent content in Python on Bradin Rohde</description><generator>Hugo</generator><language>en</language><managingEditor>bradinrohde0@gmail.com (Bradin Rohde)</managingEditor><webMaster>bradinrohde0@gmail.com (Bradin Rohde)</webMaster><lastBuildDate>Sun, 14 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://brohde.me/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>PwnHound</title><link>https://brohde.me/projects/pwnhound/</link><pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate><author>bradinrohde0@gmail.com (Bradin Rohde)</author><guid>https://brohde.me/projects/pwnhound/</guid><description>&lt;p&gt;&lt;code&gt;THIS IS A WORK IN PROGRESS, CHECK BACK FOR UPDATES&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;When I first started getting into cybersecurity, I stumbled across the &lt;a href="https://pwnagotchi.ai/"&gt;Pwnagotchi&lt;/a&gt;, a handheld device used for hacking that captures the 4 way handshake when some victim device connects to a wifi network. These captures can be analyzed and used to crack wifi passwords. I built one about a week later and fell in love with the form factor, the little avatar, and learning more about network security.&lt;/p&gt;</description></item><item><title>1337ness</title><link>https://brohde.me/projects/1337ness/</link><pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate><author>bradinrohde0@gmail.com (Bradin Rohde)</author><guid>https://brohde.me/projects/1337ness/</guid><description>&lt;p&gt;After my very first CTF back in 2023, I was really interested in password cracking. It just makes you feel so powerful when hashcat comes back &amp;ldquo;Cracked&amp;rdquo;. With me being so new to password cracking and cybersecurity in general, I decided it would be worth writing a program that could help me crack more passwords. It would serve as a little project to learn shell scripting as well as some more python.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Bradin Rohde</title>
+    <link>http://localhost:1313/tags/python/</link>
+    <description>Recent content in Python on Bradin Rohde</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>bradinrohde0@gmail.com (Bradin Rohde)</managingEditor>
+    <webMaster>bradinrohde0@gmail.com (Bradin Rohde)</webMaster>
+    <lastBuildDate>Sun, 14 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PwnHound</title>
+      <link>http://localhost:1313/projects/pwnhound/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate><author>bradinrohde0@gmail.com (Bradin Rohde)</author>
+      <guid>http://localhost:1313/projects/pwnhound/</guid>
+      <description>&lt;p&gt;&lt;code&gt;THIS IS A WORK IN PROGRESS, CHECK BACK FOR UPDATES&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;When I first started getting into cybersecurity, I stumbled across the &lt;a href=&#34;https://pwnagotchi.ai/&#34;&gt;Pwnagotchi&lt;/a&gt;, a handheld device used for hacking that captures the 4 way handshake when some victim device connects to a wifi network. These captures can be analyzed and used to crack wifi passwords. I built one about a week later and fell in love with the form factor, the little avatar, and learning more about network security.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1337ness</title>
+      <link>http://localhost:1313/projects/1337ness/</link>
+      <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate><author>bradinrohde0@gmail.com (Bradin Rohde)</author>
+      <guid>http://localhost:1313/projects/1337ness/</guid>
+      <description>&lt;p&gt;After my very first CTF back in 2023, I was really interested in password cracking. It just makes you feel so powerful when hashcat comes back &amp;ldquo;Cracked&amp;rdquo;. With me being so new to password cracking and cybersecurity in general, I decided it would be worth writing a program that could help me crack more passwords. It would serve as a little project to learn shell scripting as well as some more python.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dropship</title>
+      <link>http://localhost:1313/projects/dropship/</link>
+      <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate><author>bradinrohde0@gmail.com (Bradin Rohde)</author>
+      <guid>http://localhost:1313/projects/dropship/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

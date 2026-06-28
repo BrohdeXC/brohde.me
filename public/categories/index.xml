@@ -1,1 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Bradin Rohde</title><link>https://brohde.me/categories/</link><description>Recent content in Categories on Bradin Rohde</description><generator>Hugo</generator><language>en</language><managingEditor>bradinrohde0@gmail.com (Bradin Rohde)</managingEditor><webMaster>bradinrohde0@gmail.com (Bradin Rohde)</webMaster><atom:link href="https://brohde.me/categories/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Bradin Rohde</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Bradin Rohde</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>bradinrohde0@gmail.com (Bradin Rohde)</managingEditor>
+    <webMaster>bradinrohde0@gmail.com (Bradin Rohde)</webMaster>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

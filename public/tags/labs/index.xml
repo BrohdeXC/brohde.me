@@ -1,1 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Labs on Bradin Rohde</title><link>https://brohde.me/tags/labs/</link><description>Recent content in Labs on Bradin Rohde</description><generator>Hugo</generator><language>en</language><managingEditor>bradinrohde0@gmail.com (Bradin Rohde)</managingEditor><webMaster>bradinrohde0@gmail.com (Bradin Rohde)</webMaster><lastBuildDate>Fri, 13 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://brohde.me/tags/labs/index.xml" rel="self" type="application/rss+xml"/><item><title>PC1525 - JohnTheRipper Lab</title><link>https://brohde.me/courses/passwordcracking/1525_johnlab/</link><pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate><author>bradinrohde0@gmail.com (Bradin Rohde)</author><guid>https://brohde.me/courses/passwordcracking/1525_johnlab/</guid><description/></item><item><title>PC1515 - Hashcat Lab</title><link>https://brohde.me/courses/passwordcracking/1515_hashcatlab/</link><pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate><author>bradinrohde0@gmail.com (Bradin Rohde)</author><guid>https://brohde.me/courses/passwordcracking/1515_hashcatlab/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Labs on Bradin Rohde</title>
+    <link>http://localhost:1313/tags/labs/</link>
+    <description>Recent content in Labs on Bradin Rohde</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>bradinrohde0@gmail.com (Bradin Rohde)</managingEditor>
+    <webMaster>bradinrohde0@gmail.com (Bradin Rohde)</webMaster>
+    <lastBuildDate>Fri, 13 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/labs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PC1525 - John Lab</title>
+      <link>http://localhost:1313/courses/passwordcracking/1535_ophcracklab/</link>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate><author>bradinrohde0@gmail.com (Bradin Rohde)</author>
+      <guid>http://localhost:1313/courses/passwordcracking/1535_ophcracklab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PC1525 - JohnTheRipper Lab</title>
+      <link>http://localhost:1313/courses/passwordcracking/1525_johnlab/</link>
+      <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate><author>bradinrohde0@gmail.com (Bradin Rohde)</author>
+      <guid>http://localhost:1313/courses/passwordcracking/1525_johnlab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PC1515 - Hashcat Lab</title>
+      <link>http://localhost:1313/courses/passwordcracking/1515_hashcatlab/</link>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate><author>bradinrohde0@gmail.com (Bradin Rohde)</author>
+      <guid>http://localhost:1313/courses/passwordcracking/1515_hashcatlab/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

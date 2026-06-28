@@ -7,12 +7,18 @@ tags: [Courses]
 draft: false
 ---
 
+<div class="well">
 <section class="hero">
   <div class="terminal-line">
       <p>root@brohde:~# cat PasswordCracking.txt</p>
       <p>Welcome to one of my favorite subjects! Here we'll cover password cracking techniques from hash to cracked! More courses to come!</p>
   </div>
 </section>
+</div>
+
+# Workshop
+### [Password Cracking Workshop](/courses/passwordcracking/workshop)
+A 2-hour hands-on workshop covering the full pipeline: history, hashes, dictionary attacks with rockyou, masks, rules, and gathering hashes from real systems.
 
 # Beginner Courses
 ### [PC1010 - Intro to Password Cracking](/courses/passwordcracking/1010_introtopasswordcracking)

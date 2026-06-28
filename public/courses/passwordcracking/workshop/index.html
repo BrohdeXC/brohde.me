@@ -1,0 +1,1149 @@
+
+
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+ 
+
+
+      <title>Password Cracking Workshop - </title>
+
+  <meta name="description" content="A 2-Hour Hands-On Introduction to Offline Password Recovery">
+  <meta name="author" content="Bradin Rohde"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Bradin Rohde",
+    
+    "url": "http:\/\/localhost:1313\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "http:\/\/localhost:1313\/"
+  
+  
+  
+  
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/courses\/passwordcracking\/workshop\/",
+          "name": "Password cracking workshop"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Bradin Rohde"
+  },
+  "headline": "Password Cracking Workshop",
+  "description" : "A 2-hour hands-on workshop covering the full pipeline: background and theory, installing tools, cracking hashes with dictionary attacks, masks, rules, and gathering hashes from real systems.\n",
+  "inLanguage" : "en",
+  "wordCount":  2546 ,
+  "datePublished" : "2026-06-28T00:00:00\u002b00:00",
+  "dateModified" : "2026-06-28T00:00:00\u002b00:00",
+  "image" : "http:\/\/localhost:1313\/assets\/img\/AboutPics\/Bradin_Cropped.png",
+  "keywords" : [ "Courses, PasswordCracking" ],
+  "mainEntityOfPage" : "http:\/\/localhost:1313\/courses\/passwordcracking\/workshop\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "http:\/\/localhost:1313\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "http:\/\/localhost:1313\/assets\/img\/AboutPics\/Bradin_Cropped.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+
+<meta property="og:title" content="Password Cracking Workshop" />
+<meta property="og:description" content="A 2-Hour Hands-On Introduction to Offline Password Recovery">
+<meta property="og:image" content="http://localhost:1313/assets/img/AboutPics/Bradin_Cropped.png" />
+<meta property="og:url" content="http://localhost:1313/courses/passwordcracking/workshop/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Bradin Rohde" />
+
+  <meta name="twitter:title" content="Password Cracking Workshop" />
+  <meta name="twitter:description" content="A 2-Hour Hands-On Introduction to Offline Password Recovery">
+  <meta name="twitter:image" content="http://localhost:1313/assets/img/AboutPics/Bradin_Cropped.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link href='http://localhost:1313/assets/img/AboutPics/BR_Logo.png' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.161.1">
+  <link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="Bradin Rohde"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v7.0.1/css/brands.css" integrity="sha384-+eXGm6TmVoCZR1gX03US+L++L2mJIfOvp2X0+luTuEktXaF5F+e3zn0sO0HBvOyT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v7.0.1/css/fontawesome.css" integrity="sha384-B5nyPZa7e84uCJEYHtevCdVYtQosWsbDSRtq3cy/jeSVtQW05GL8CKXO7waXsjPK" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v7.0.1/css/regular.css" integrity="sha384-V71z/A/p/DGaZAryHhiSXRQj8HdQmK2nBgL2bX23MGD+h6ZKpyxOO76f5eSXmIaj" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v7.0.1/css/solid.css" integrity="sha384-1IIShlrK5iYgvS7OAgIH3prz4RAFP7hHZ2MaLIb9l3+trFwwnw/NdCWcUHlymZDU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v7.0.1/css/svg.css" integrity="sha384-iBa7uugTOHXqQ2ngvDYJyKrPPQbd9n2P3EQe+o/0+HZe5TNvV+LO5X0lLLUrXLHP" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v7.0.1/css/svg-with-js.css" integrity="sha384-STWnS5AGz6M2YxsnGAd536EqcE2y+ktGovMMuhtXLsCBtl7lujeQj2eN4eDxa57x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v7.0.1/css/v4-font-face.css" integrity="sha384-fH83IkgQi7kturzlxpXfNdsR8aUOcqj5HUORRVnSvJgObZkIw6aqKAaQx20IWyB/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v7.0.1/css/v4-shims.css" integrity="sha384-cCODJHSivNBsaHei/8LC0HUD58kToSbDU+xT7Rs51BO1v/IvgT/uM0W6xMoUqKfn" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v7.0.1/css/v5-font-face.css" integrity="sha384-atSdF89mIn15dv+o2LKkDM6mCh3hwh6A7mwZ6F2it/kenqZbMu+QW/ye1OG4XSWV" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"><link rel="stylesheet" href="http://localhost:1313/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="http://localhost:1313/css/highlight.min.css" /><link rel="stylesheet" href="http://localhost:1313/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous"><link rel="stylesheet" href="http://localhost:1313/css/main.css">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://localhost:1313/">Bradin Rohde</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" role="button" tabindex="0">About</a>
+              <div class="navlinks-children">
+                
+                  <a href="http://localhost:1313/blog/">blog</a>
+                
+                  <a href="http://localhost:1313/page/about/">whoami</a>
+                
+                  <a href="http://localhost:1313/page/resume/">resume</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" role="button" tabindex="0">Courses</a>
+              <div class="navlinks-children">
+                
+                  <a href="http://localhost:1313/courses/passwordcracking/syllabus/">Password Cracking</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" role="button" tabindex="0">Projects</a>
+              <div class="navlinks-children">
+                
+                  <a href="http://localhost:1313/projects/shellfire/">ShellFire</a>
+                
+                  <a href="http://localhost:1313/projects/pwnhound/">PwnHound</a>
+                
+                  <a href="http://localhost:1313/projects/1337ness/">1337ness</a>
+                
+                  <a href="http://localhost:1313/projects/homelab">HomeLab</a>
+                
+              </div>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Bradin Rohde" href="http://localhost:1313/">
+            <img class="avatar-img" src="http://localhost:1313/assets/img/AboutPics/Bradin_Cropped.png" alt="Bradin Rohde" />
+           
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="courses-heading">
+              
+                <h1>Password Cracking Workshop</h1>
+              
+              
+                <hr class="small">
+              
+              
+                
+                  <h2 class="courses-subheading">A 2-Hour Hands-On Introduction to Offline Password Recovery</h2>
+                
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>A 2-hour hands-on workshop covering the full pipeline: background and theory, installing tools, cracking hashes with dictionary attacks, masks, rules, and gathering hashes from real systems.</p>
+<h2 id="disclaimer">Disclaimer</h2>
+<p>The content of this workshop is for educational use only. I do not condone the use of this information for illegal or unethical purposes. Use it only with explicit permission from the owner of the data. <strong>Don&rsquo;t be a Script Kiddie.</strong></p>
+<hr>
+<h2 id="what-you-need">What You Need</h2>
+<ul>
+<li>A Linux machine (Kali, Ubuntu, or any Debian-based distro recommended)</li>
+<li><code>hashcat</code> and <code>john</code> (installed during the workshop)</li>
+<li><code>rockyou.txt</code> (usually at <code>/usr/share/wordlists/rockyou.txt</code> on Kali)</li>
+<li>A terminal</li>
+</ul>
+<hr>
+<h1 id="part-1--background-and-history-000--020">Part 1 — Background and History <code>[0:00 – 0:20]</code></h1>
+<h2 id="where-this-all-started">Where This All Started</h2>
+<p>Password cracking has been around as long as password hashing. Early Unix systems in the 1970s stored passwords as DES-based crypt hashes — at the time, this was considered sufficient. As computing power grew, so did the ability to crack those hashes. By the 1990s, Windows systems were shipping with LAN Manager (LM) hashes, a notoriously weak scheme that split passwords into two 7-character chunks — making a 14-character password no harder to crack than two 7-character ones. Tools like L0phtCrack (1997) made LM cracking trivial.</p>
+<p>The watershed moment for modern password cracking is <strong>the 2009 RockYou breach</strong>. RockYou, a social media app company, stored <strong>32 million user passwords in plaintext</strong>. When attackers exfiltrated the database, the security community got an unprecedented look at how real people actually choose passwords:</p>
+<ul>
+<li><code>123456</code></li>
+<li><code>password</code></li>
+<li><code>iloveyou</code></li>
+<li><code>sunshine</code></li>
+<li>Names, birthdays, sports teams</li>
+</ul>
+<p>That dump became <code>rockyou.txt</code> — the wordlist we use to this day. It is devastatingly effective precisely because it reflects real human behavior.</p>
+<p>Today, major breaches happen constantly. <a href="https://haveibeenpwned.com">HaveIBeenPwned.com</a> tracks billions of compromised credentials. The passwords in those breaches end up in wordlists, which makes weak passwords weaker over time.</p>
+<h2 id="how-passwords-are-stored">How Passwords Are Stored</h2>
+<p>When you log into a website, your password is almost never stored directly. Instead, it goes through a <strong>hash function</strong> — a one-way mathematical operation that turns your password into a fixed-length string called a <strong>digest</strong>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&#34;hunter2&#34;  →  MD5  →  2ab96390c7dbe3439de74d0c9b0b1767
+</span></span><span class="line"><span class="cl">&#34;hunter2&#34;  →  SHA1 →  f3bbbd66a63d4bf1747940578ec3d0103530e21d
+</span></span><span class="line"><span class="cl">&#34;hunter2&#34;  →  SHA256 → f52fbd32b2b3b86ff88ef6c490628285f482af15ddcb29541f94bcf526a3f6c7
+</span></span></code></pre></div><p>Key properties:</p>
+<ul>
+<li><strong>Deterministic</strong> — the same input always gives the same output</li>
+<li><strong>One-way</strong> — you cannot reverse a hash to get the original password</li>
+<li><strong>Avalanche effect</strong> — changing one character changes the entire hash</li>
+</ul>
+<p>Since hashes can&rsquo;t be reversed, we crack them by working forward: hash a candidate password, compare the result to the target hash, repeat.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">rockyou.txt line: &#34;hunter2&#34;
+</span></span><span class="line"><span class="cl">        ↓
+</span></span><span class="line"><span class="cl">    MD5 hash: 2ab96390c7dbe3439de74d0c9b0b1767
+</span></span><span class="line"><span class="cl">        ↓
+</span></span><span class="line"><span class="cl">  Does it match our target hash?  → YES → Password found!
+</span></span><span class="line"><span class="cl">                                  → NO  → Try next word
+</span></span></code></pre></div><h2 id="salting--why-stolen-hashes-arent-instant-access">Salting — Why Stolen Hashes Aren&rsquo;t Instant Access</h2>
+<p>Modern systems add a random <strong>salt</strong> — a unique string appended to each password before hashing. The same password produces a different hash for every user:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&#34;password&#34; + salt &#34;x9aB&#34;  →  $6$x9aB$&lt;long hash&gt;
+</span></span><span class="line"><span class="cl">&#34;password&#34; + salt &#34;mQ2k&#34;  →  $6$mQ2k$&lt;different long hash&gt;
+</span></span></code></pre></div><p>This defeats precomputed attack tables (rainbow tables) and means each hash must be cracked individually. Older or misconfigured systems often skip salting — which is why old MD5 and NTLM databases crack so quickly.</p>
+<h2 id="the-defenders-goal">The Defender&rsquo;s Goal</h2>
+<blockquote>
+<p><strong>The goal is not to make cracking impossible. It&rsquo;s to make cracking computationally impractical.</strong></p>
+</blockquote>
+<p>If cracking your password would take longer than the heat death of the universe, it doesn&rsquo;t matter that it&rsquo;s theoretically possible. Strong, long, unique passwords with proper hashing algorithms buy that time.</p>
+<hr>
+<h1 id="part-2--setup-020--035">Part 2 — Setup <code>[0:20 – 0:35]</code></h1>
+<h2 id="install-hashcat">Install Hashcat</h2>
+<p>Hashcat is the industry-standard GPU-accelerated password cracker supporting 300+ hash types.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Debian / Ubuntu / Kali</span>
+</span></span><span class="line"><span class="cl">sudo apt install hashcat
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Arch</span>
+</span></span><span class="line"><span class="cl">sudo pacman -S hashcat
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># macOS</span>
+</span></span><span class="line"><span class="cl">brew install hashcat
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Verify</span>
+</span></span><span class="line"><span class="cl">hashcat --version
+</span></span></code></pre></div><h2 id="install-john-the-ripper-jumbo-edition">Install John the Ripper (Jumbo Edition)</h2>
+<p>John the Ripper (JtR) is another major cracker with strong auto-detection and single-crack mode. Install the <strong>Jumbo</strong> fork for full feature support including the mask attack.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Debian / Ubuntu / Kali</span>
+</span></span><span class="line"><span class="cl">sudo apt install john
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Arch</span>
+</span></span><span class="line"><span class="cl">sudo pacman -S john
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># macOS</span>
+</span></span><span class="line"><span class="cl">brew install john
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Verify</span>
+</span></span><span class="line"><span class="cl">john --version
+</span></span></code></pre></div><h2 id="get-rockyoutxt">Get rockyou.txt</h2>
+<p>On Kali Linux it&rsquo;s already included:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ls /usr/share/wordlists/
+</span></span><span class="line"><span class="cl"><span class="c1"># You should see rockyou.txt.gz — unzip it if needed:</span>
+</span></span><span class="line"><span class="cl">sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
+</span></span></code></pre></div><p>On other systems, download it:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
+</span></span></code></pre></div><p>Check it:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wc -l rockyou.txt     <span class="c1"># Should show ~14.3 million lines</span>
+</span></span><span class="line"><span class="cl">head -20 rockyou.txt  <span class="c1"># Take a look at the top passwords</span>
+</span></span></code></pre></div><h2 id="create-a-workshop-directory">Create a Workshop Directory</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkdir ~/pcworkshop <span class="o">&amp;&amp;</span> <span class="nb">cd</span> ~/pcworkshop
+</span></span></code></pre></div><hr>
+<h1 id="part-3--hash-identification-035--045">Part 3 — Hash Identification <code>[0:35 – 0:45]</code></h1>
+<p>Before you can crack a hash you have to know what kind it is. Hash length is often the first clue:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Length (chars)</th>
+          <th>Common Algorithm</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>32</td>
+          <td>MD5</td>
+      </tr>
+      <tr>
+          <td>40</td>
+          <td>SHA1</td>
+      </tr>
+      <tr>
+          <td>56</td>
+          <td>SHA224</td>
+      </tr>
+      <tr>
+          <td>64</td>
+          <td>SHA256</td>
+      </tr>
+      <tr>
+          <td>96</td>
+          <td>SHA384</td>
+      </tr>
+      <tr>
+          <td>128</td>
+          <td>SHA512</td>
+      </tr>
+      <tr>
+          <td>32 (uppercase)</td>
+          <td>NTLM</td>
+      </tr>
+  </tbody>
+</table>
+<p>Hashcat uses <strong>hash modes</strong> (<code>-m</code>) to identify the algorithm. Key ones to memorize:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Mode</th>
+          <th>Algorithm</th>
+          <th>Example Hash</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>0</td>
+          <td>MD5</td>
+          <td><code>5f4dcc3b5aa765d61d8327deb882cf99</code></td>
+      </tr>
+      <tr>
+          <td>100</td>
+          <td>SHA1</td>
+          <td><code>5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8</code></td>
+      </tr>
+      <tr>
+          <td>1000</td>
+          <td>NTLM</td>
+          <td><code>8846F7EAEE8FB117AD06BDD830B7586C</code></td>
+      </tr>
+      <tr>
+          <td>1400</td>
+          <td>SHA256</td>
+          <td><code>5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8</code></td>
+      </tr>
+      <tr>
+          <td>1800</td>
+          <td>SHA512crypt (<code>$6$</code>)</td>
+          <td><code>$6$52450745$k5ka2p8bFuSmoVT1tzOyyuaREkkKBcCNkRKfl.7.k/pjsA.TCFbFm3aLZVHt7K2.yQE8tVFnMk63X8UiZuBJr/</code></td>
+      </tr>
+      <tr>
+          <td>3200</td>
+          <td>bcrypt (<code>$2*$</code>)</td>
+          <td><code>$2a$05$LhayLxezLhK1LhWvKxCyLOj0j1u.Kj0jZ0pEmm134uzrQlFvQJLF6</code></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="try-it-generate-your-own-hashes">Try It: Generate Your Own Hashes</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># MD5</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> -n <span class="s2">&#34;password&#34;</span> <span class="p">|</span> md5sum
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># SHA256</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> -n <span class="s2">&#34;password&#34;</span> <span class="p">|</span> sha256sum
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># SHA1</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> -n <span class="s2">&#34;password&#34;</span> <span class="p">|</span> sha1sum
+</span></span></code></pre></div><p>Compare your output to the table above. The lengths should match.</p>
+<h3 id="online-identification">Online Identification</h3>
+<p>When you receive an unknown hash, paste it into <a href="https://hashes.com/en/tools/hash_identifier">hashes.com/en/tools/hash_identifier</a>. It will give you a ranked list of likely algorithms.</p>
+<hr>
+<h1 id="part-4--dictionary-attacks-with-rockyou-045--110">Part 4 — Dictionary Attacks with rockyou <code>[0:45 – 1:10]</code></h1>
+<p>Dictionary attacks are the fastest and most effective first move. You hash every line in a wordlist and compare it to your target.</p>
+<h2 id="workshop-hashes--set-1">Workshop Hashes — Set 1</h2>
+<p>Create this file:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cat &gt; ~/pcworkshop/hashes1.txt <span class="s">&lt;&lt; &#39;EOF&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s">5f4dcc3b5aa765d61d8327deb882cf99
+</span></span></span><span class="line"><span class="cl"><span class="s">e10adc3949ba59abbe56e057f20f883e
+</span></span></span><span class="line"><span class="cl"><span class="s">d8578edf8458ce06fbc5bb76a58c5ca4
+</span></span></span><span class="line"><span class="cl"><span class="s">25f9e794323b453885f5181f1b624d0b
+</span></span></span><span class="line"><span class="cl"><span class="s">0d107d09f5bbe40cade3de5c71e9e9b7
+</span></span></span><span class="line"><span class="cl"><span class="s">EOF</span>
+</span></span></code></pre></div><p>These are all MD5 hashes. Before running anything, make a prediction: what kind of passwords end up in rockyou?</p>
+<h3 id="run-the-dictionary-attack">Run the Dictionary Attack</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hashcat -m <span class="m">0</span> -a <span class="m">0</span> ~/pcworkshop/hashes1.txt /usr/share/wordlists/rockyou.txt
+</span></span></code></pre></div><p>Flag breakdown:</p>
+<ul>
+<li><code>-m 0</code> — hash mode MD5</li>
+<li><code>-a 0</code> — attack mode dictionary</li>
+<li><code>hashes1.txt</code> — your target hashes</li>
+<li><code>rockyou.txt</code> — the wordlist</li>
+</ul>
+<h3 id="view-results">View Results</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hashcat -m <span class="m">0</span> -a <span class="m">0</span> ~/pcworkshop/hashes1.txt /usr/share/wordlists/rockyou.txt --show
+</span></span></code></pre></div><p>You should see:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">5f4dcc3b5aa765d61d8327deb882cf99:password
+</span></span><span class="line"><span class="cl">e10adc3949ba59abbe56e057f20f883e:123456
+</span></span><span class="line"><span class="cl">d8578edf8458ce06fbc5bb76a58c5ca4:qwerty
+</span></span><span class="line"><span class="cl">25f9e794323b453885f5181f1b624d0b:12345678
+</span></span><span class="line"><span class="cl">0d107d09f5bbe40cade3de5c71e9e9b7:letmein
+</span></span></code></pre></div><p>All five in seconds. These are the top 5 passwords in rockyou.</p>
+<h2 id="john-the-ripper--same-attack">John the Ripper — Same Attack</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Create a copy for John</span>
+</span></span><span class="line"><span class="cl">cp ~/pcworkshop/hashes1.txt ~/pcworkshop/hashes1_john.txt
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">john --format<span class="o">=</span>Raw-MD5 --wordlist<span class="o">=</span>/usr/share/wordlists/rockyou.txt ~/pcworkshop/hashes1_john.txt
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Show results</span>
+</span></span><span class="line"><span class="cl">john --show --format<span class="o">=</span>Raw-MD5 ~/pcworkshop/hashes1_john.txt
+</span></span></code></pre></div><p>John auto-detects many hash types, but it&rsquo;s always safer to specify with <code>--format</code> to avoid guessing wrong.</p>
+<h2 id="workshop-hashes--set-2-sha256">Workshop Hashes — Set 2 (SHA256)</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cat &gt; ~/pcworkshop/hashes2.txt <span class="s">&lt;&lt; &#39;EOF&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s">d5cec0a4dab34d51eaa57c97adf7a3262c43a2f1c17369ceb11b40e06714f087
+</span></span></span><span class="line"><span class="cl"><span class="s">f1da9421394e4892f3ed37287493ec319f321d23c1fa6c4dba10fbdda95186a3
+</span></span></span><span class="line"><span class="cl"><span class="s">becedec1e34ba27a9684af85e6e49c5e4e5124520b6ba059820f8b4bb60c328f
+</span></span></span><span class="line"><span class="cl"><span class="s">3684ef64d82e08cf5cac8c8a206498b67d12971a8721a5519a0e2c9d2f3ee151
+</span></span></span><span class="line"><span class="cl"><span class="s">d0a5e64798ce47fddd565cbe02e22ffeda835dd819b15528dd62e80e45328a75
+</span></span></span><span class="line"><span class="cl"><span class="s">EOF</span>
+</span></span></code></pre></div><p>These are SHA256. Note the length difference from Set 1. Use mode <code>1400</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hashcat -m <span class="m">1400</span> -a <span class="m">0</span> ~/pcworkshop/hashes2.txt /usr/share/wordlists/rockyou.txt
+</span></span><span class="line"><span class="cl">hashcat -m <span class="m">1400</span> -a <span class="m">0</span> ~/pcworkshop/hashes2.txt /usr/share/wordlists/rockyou.txt --show
+</span></span></code></pre></div><p>Expected results:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">d5cec0a4...:secureme123
+</span></span><span class="line"><span class="cl">f1da9421...:catlovermeme
+</span></span><span class="line"><span class="cl">becedec1...:securityadmin284650
+</span></span><span class="line"><span class="cl">3684ef64...:mypasswordistooshort
+</span></span><span class="line"><span class="cl">d0a5e647...:loveredbull
+</span></span></code></pre></div><p>Notice that <code>securityadmin284650</code> and <code>mypasswordistooshort</code> cracked from rockyou — real people used these passwords in real breaches.</p>
+<hr>
+<h1 id="part-5--mask-and-hybrid-attacks-110--135">Part 5 — Mask and Hybrid Attacks <code>[1:10 – 1:35]</code></h1>
+<p>Dictionary attacks fail when the password is not in your wordlist. Masks let you describe the <em>shape</em> of a password rather than guessing individual words.</p>
+<h2 id="mask-syntax">Mask Syntax</h2>
+<p>Hashcat mask characters:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Placeholder</th>
+          <th>Charset</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>?l</code></td>
+          <td><code>abcdefghijklmnopqrstuvwxyz</code></td>
+      </tr>
+      <tr>
+          <td><code>?u</code></td>
+          <td><code>ABCDEFGHIJKLMNOPQRSTUVWXYZ</code></td>
+      </tr>
+      <tr>
+          <td><code>?d</code></td>
+          <td><code>0123456789</code></td>
+      </tr>
+      <tr>
+          <td><code>?s</code></td>
+          <td><code>«space»!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\]^_\</code>{</td>
+      </tr>
+      <tr>
+          <td><code>?a</code></td>
+          <td><code>?l?u?d?s</code> (all printable)</td>
+      </tr>
+      <tr>
+          <td><code>?h</code></td>
+          <td><code>0123456789abcdef</code></td>
+      </tr>
+      <tr>
+          <td><code>?H</code></td>
+          <td><code>0123456789ABCDEF</code></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="workshop-hashes--set-3-masks">Workshop Hashes — Set 3 (Masks)</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cat &gt; ~/pcworkshop/hashes3.txt <span class="s">&lt;&lt; &#39;EOF&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s">0a2b4ed7fecd8a31c7f2fa91da7d67a4
+</span></span></span><span class="line"><span class="cl"><span class="s">2a4f5b65b7aba3e97cd80e2ab73aeeb3
+</span></span></span><span class="line"><span class="cl"><span class="s">EOF</span>
+</span></span></code></pre></div><p>These are the MD5 hashes of <code>hacker2002</code> and <code>9001hacker</code>. The pattern is a known word with 4 digits either appended or prepended.</p>
+<h3 id="mask-attack">Mask Attack</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># &#34;hacker&#34; followed by 4 digits</span>
+</span></span><span class="line"><span class="cl">hashcat -m <span class="m">0</span> -a <span class="m">3</span> ~/pcworkshop/hashes3.txt <span class="s2">&#34;hacker?d?d?d?d&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 4 digits followed by &#34;hacker&#34;</span>
+</span></span><span class="line"><span class="cl">hashcat -m <span class="m">0</span> -a <span class="m">3</span> ~/pcworkshop/hashes3.txt <span class="s2">&#34;?d?d?d?dhacker&#34;</span>
+</span></span></code></pre></div><p>Flag: <code>-a 3</code> is brute force / mask mode.</p>
+<h3 id="in-john">In John</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">john --format<span class="o">=</span>Raw-MD5 --mask<span class="o">=</span><span class="s2">&#34;hacker?d?d?d?d&#34;</span> ~/pcworkshop/hashes3.txt
+</span></span><span class="line"><span class="cl">john --format<span class="o">=</span>Raw-MD5 --mask<span class="o">=</span><span class="s2">&#34;?d?d?d?dhacker&#34;</span> ~/pcworkshop/hashes3.txt
+</span></span><span class="line"><span class="cl">john --show --format<span class="o">=</span>Raw-MD5 ~/pcworkshop/hashes3.txt
+</span></span></code></pre></div><h2 id="hybrid-attacks--dictionary--mask">Hybrid Attacks — Dictionary + Mask</h2>
+<p>Hybrid attacks combine a wordlist and a mask. This is perfect for passwords like <code>Summer2024!</code> or <code>fluffy2023</code>.</p>
+<p>Workshop hashes — Set 4:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cat &gt; ~/pcworkshop/hashes4.txt <span class="s">&lt;&lt; &#39;EOF&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s">1d06f250bea546b9862fab4751a6f056
+</span></span></span><span class="line"><span class="cl"><span class="s">12169d5a079252c9ba59973f163c4018
+</span></span></span><span class="line"><span class="cl"><span class="s">46eb1366c2330cf43708fac464ee621a
+</span></span></span><span class="line"><span class="cl"><span class="s">bbdc19c246e4af6b5de0398200f0b273
+</span></span></span><span class="line"><span class="cl"><span class="s">4c4f00ea90364c4b288090b1855de5f7
+</span></span></span><span class="line"><span class="cl"><span class="s">EOF</span>
+</span></span></code></pre></div><p>These hashes follow the pattern <code>FirstName</code> + 4-digit year. Create a names wordlist:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cat &gt; ~/pcworkshop/names.txt <span class="s">&lt;&lt; &#39;EOF&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s">Steve
+</span></span></span><span class="line"><span class="cl"><span class="s">Mary
+</span></span></span><span class="line"><span class="cl"><span class="s">Joseph
+</span></span></span><span class="line"><span class="cl"><span class="s">Susan
+</span></span></span><span class="line"><span class="cl"><span class="s">Tommy
+</span></span></span><span class="line"><span class="cl"><span class="s">Sarah
+</span></span></span><span class="line"><span class="cl"><span class="s">Alex
+</span></span></span><span class="line"><span class="cl"><span class="s">Emily
+</span></span></span><span class="line"><span class="cl"><span class="s">Frank
+</span></span></span><span class="line"><span class="cl"><span class="s">Ashley
+</span></span></span><span class="line"><span class="cl"><span class="s">EOF</span>
+</span></span></code></pre></div><p>Hybrid attack — mask after wordlist (<code>-a 6</code>):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hashcat -m <span class="m">0</span> -a <span class="m">6</span> ~/pcworkshop/hashes4.txt ~/pcworkshop/names.txt <span class="s2">&#34;?d?d?d?d&#34;</span>
+</span></span><span class="line"><span class="cl">hashcat -m <span class="m">0</span> -a <span class="m">6</span> ~/pcworkshop/hashes4.txt ~/pcworkshop/names.txt <span class="s2">&#34;?d?d?d?d&#34;</span> --show
+</span></span></code></pre></div><p>Expected:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">1d06f250...:Steve1951
+</span></span><span class="line"><span class="cl">12169d5a...:Mary1976
+</span></span><span class="line"><span class="cl">46eb1366...:Joseph1980
+</span></span><span class="line"><span class="cl">bbdc19c2...:Susan1907
+</span></span><span class="line"><span class="cl">4c4f00ea...:Ashley2008
+</span></span></code></pre></div><p>For mask before wordlist (<code>-a 7</code>):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hashcat -m <span class="m">0</span> -a <span class="m">7</span> ~/pcworkshop/hashes_prepend.txt <span class="s2">&#34;?d?d?d?d&#34;</span> ~/pcworkshop/names.txt
+</span></span></code></pre></div><h2 id="combinator-attacks">Combinator Attacks</h2>
+<p>Combinator takes two wordlists and concatenates every permutation. Great for <code>coloranimal</code> or <code>adjectivefood</code> style passwords:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cat &gt; ~/pcworkshop/colors.txt <span class="s">&lt;&lt; &#39;EOF&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s">red
+</span></span></span><span class="line"><span class="cl"><span class="s">blue
+</span></span></span><span class="line"><span class="cl"><span class="s">green
+</span></span></span><span class="line"><span class="cl"><span class="s">orange
+</span></span></span><span class="line"><span class="cl"><span class="s">yellow
+</span></span></span><span class="line"><span class="cl"><span class="s">pink
+</span></span></span><span class="line"><span class="cl"><span class="s">indigo
+</span></span></span><span class="line"><span class="cl"><span class="s">white
+</span></span></span><span class="line"><span class="cl"><span class="s">EOF</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">cat &gt; ~/pcworkshop/animals.txt <span class="s">&lt;&lt; &#39;EOF&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s">dog
+</span></span></span><span class="line"><span class="cl"><span class="s">cat
+</span></span></span><span class="line"><span class="cl"><span class="s">fox
+</span></span></span><span class="line"><span class="cl"><span class="s">cow
+</span></span></span><span class="line"><span class="cl"><span class="s">frog
+</span></span></span><span class="line"><span class="cl"><span class="s">goose
+</span></span></span><span class="line"><span class="cl"><span class="s">pony
+</span></span></span><span class="line"><span class="cl"><span class="s">bison
+</span></span></span><span class="line"><span class="cl"><span class="s">squirrel
+</span></span></span><span class="line"><span class="cl"><span class="s">EOF</span>
+</span></span></code></pre></div><p>Workshop hashes — Set 5:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cat &gt; ~/pcworkshop/hashes5.txt <span class="s">&lt;&lt; &#39;EOF&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s">013c17dfad9f7825409dd056dcf5e23f
+</span></span></span><span class="line"><span class="cl"><span class="s">20f016fb1b49fc30be42b16681095894
+</span></span></span><span class="line"><span class="cl"><span class="s">92bd80147f593124b29284f5f86a1a33
+</span></span></span><span class="line"><span class="cl"><span class="s">3645dd1e88f1a094bac6d77e1ef78e98
+</span></span></span><span class="line"><span class="cl"><span class="s">b4bc74022136b55bc2292808cc262f1a
+</span></span></span><span class="line"><span class="cl"><span class="s">EOF</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hashcat -m <span class="m">0</span> -a <span class="m">1</span> ~/pcworkshop/hashes5.txt ~/pcworkshop/colors.txt ~/pcworkshop/animals.txt
+</span></span><span class="line"><span class="cl">hashcat -m <span class="m">0</span> -a <span class="m">1</span> ~/pcworkshop/hashes5.txt ~/pcworkshop/colors.txt ~/pcworkshop/animals.txt --show
+</span></span></code></pre></div><p>Expected: <code>greencow</code>, <code>redgoose</code>, <code>pinksquirrel</code>, <code>bluedog</code>, <code>indigofrog</code></p>
+<hr>
+<h1 id="part-6--rules-135--150">Part 6 — Rules <code>[1:35 – 1:50]</code></h1>
+<p>Rules are transformation instructions applied to each word in a wordlist. Instead of storing every variation of a word, you describe the mutation pattern and let hashcat generate them on the fly.</p>
+<h2 id="why-rules-matter">Why Rules Matter</h2>
+<p>A password policy that requires at least one capital letter, one number, and one special character predictably results in passwords like:</p>
+<ul>
+<li><code>Password1!</code></li>
+<li><code>Summer2024!</code></li>
+<li><code>Qwerty123#</code></li>
+</ul>
+<p>Rules encode exactly these human habits.</p>
+<h2 id="built-in-rules">Built-in Rules</h2>
+<p>Hashcat ships with several production-ready rule files:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ls /usr/share/hashcat/rules/
+</span></span></code></pre></div><p>Key ones:</p>
+<ul>
+<li><code>best64.rule</code> — 64 common transformations, fast</li>
+<li><code>rockyou-30000.rule</code> — 30,000 rules derived from rockyou analysis</li>
+<li><code>dive.rule</code> — extremely thorough, slow</li>
+</ul>
+<h2 id="common-rule-syntax">Common Rule Syntax</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Rule</th>
+          <th>Effect</th>
+          <th>Example</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>l</code></td>
+          <td>lowercase all</td>
+          <td><code>Password</code> → <code>password</code></td>
+      </tr>
+      <tr>
+          <td><code>u</code></td>
+          <td>uppercase all</td>
+          <td><code>password</code> → <code>PASSWORD</code></td>
+      </tr>
+      <tr>
+          <td><code>c</code></td>
+          <td>capitalize</td>
+          <td><code>password</code> → <code>Password</code></td>
+      </tr>
+      <tr>
+          <td><code>r</code></td>
+          <td>reverse</td>
+          <td><code>password</code> → <code>drowssap</code></td>
+      </tr>
+      <tr>
+          <td><code>d</code></td>
+          <td>duplicate</td>
+          <td><code>password</code> → <code>passwordpassword</code></td>
+      </tr>
+      <tr>
+          <td><code>$X</code></td>
+          <td>append X</td>
+          <td><code>password</code> → <code>password1</code></td>
+      </tr>
+      <tr>
+          <td><code>^X</code></td>
+          <td>prepend X</td>
+          <td><code>password</code> → <code>1password</code></td>
+      </tr>
+      <tr>
+          <td><code>sXY</code></td>
+          <td>substitute X with Y</td>
+          <td><code>password</code> → <code>p@ssword</code></td>
+      </tr>
+      <tr>
+          <td><code>{</code></td>
+          <td>rotate left</td>
+          <td><code>password</code> → <code>asswordp</code></td>
+      </tr>
+  </tbody>
+</table>
+<p>Rules can be chained:</p>
+<ul>
+<li><code>c $1 $!</code> → <code>Password1!</code></li>
+<li><code>sa@ se3 si1 so0</code> → <code>p@ssw0rd</code> (1337speak)</li>
+</ul>
+<h2 id="apply-rules-to-rockyou">Apply Rules to rockyou</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Use best64 rules against our first hash set</span>
+</span></span><span class="line"><span class="cl">hashcat -m <span class="m">0</span> -a <span class="m">0</span> ~/pcworkshop/hashes1.txt /usr/share/wordlists/rockyou.txt <span class="se">\
+</span></span></span><span class="line"><span class="cl">  -r /usr/share/hashcat/rules/best64.rule
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Stack multiple rules (both applied in sequence)</span>
+</span></span><span class="line"><span class="cl">hashcat -m <span class="m">0</span> -a <span class="m">0</span> ~/pcworkshop/hashes1.txt /usr/share/wordlists/rockyou.txt <span class="se">\
+</span></span></span><span class="line"><span class="cl">  -r /usr/share/hashcat/rules/best64.rule <span class="se">\
+</span></span></span><span class="line"><span class="cl">  -r /usr/share/hashcat/rules/toggles1.rule
+</span></span></code></pre></div><h2 id="write-a-custom-rule">Write a Custom Rule</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cat &gt; ~/pcworkshop/workshop.rule <span class="s">&lt;&lt; &#39;EOF&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s">:
+</span></span></span><span class="line"><span class="cl"><span class="s">c
+</span></span></span><span class="line"><span class="cl"><span class="s">$1
+</span></span></span><span class="line"><span class="cl"><span class="s">$!
+</span></span></span><span class="line"><span class="cl"><span class="s">c $1 $!
+</span></span></span><span class="line"><span class="cl"><span class="s">c $1 $2 $3
+</span></span></span><span class="line"><span class="cl"><span class="s">sa@ se3 si1 so0
+</span></span></span><span class="line"><span class="cl"><span class="s">c sa@ se3 si1 so0 $1 $!
+</span></span></span><span class="line"><span class="cl"><span class="s">EOF</span>
+</span></span></code></pre></div><p>Each line is a separate rule. <code>:</code> means &ldquo;no change&rdquo; (test the word as-is). Apply it:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hashcat -m <span class="m">0</span> -a <span class="m">0</span> ~/pcworkshop/hashes1.txt /usr/share/wordlists/rockyou.txt <span class="se">\
+</span></span></span><span class="line"><span class="cl">  -r ~/pcworkshop/workshop.rule
+</span></span></code></pre></div><hr>
+<h1 id="part-7--gathering-hashes-150--205">Part 7 — Gathering Hashes <code>[1:50 – 2:05]</code></h1>
+<p>Cracking requires hashes. Here&rsquo;s where they come from in authorized assessments and CTF scenarios.</p>
+<h2 id="linux-etcshadow">Linux: /etc/shadow</h2>
+<p>Linux stores password hashes in <code>/etc/shadow</code>. Each line follows this format:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">username:$algorithm$salt$hash:lastchanged:min:max:warn:inactive:expire:
+</span></span></code></pre></div><p>Common algorithms:</p>
+<ul>
+<li><code>$1$</code> — MD5crypt (legacy)</li>
+<li><code>$5$</code> — SHA256crypt</li>
+<li><code>$6$</code> — SHA512crypt</li>
+<li><code>$y$</code> / <code>$7$</code> — yescrypt (modern Kali default)</li>
+</ul>
+<p>To read the shadow file you need root. On a machine you own for testing:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo cat /etc/shadow
+</span></span></code></pre></div><h3 id="combining-passwd-and-shadow-with-unshadow">Combining passwd and shadow with unshadow</h3>
+<p>John&rsquo;s <code>unshadow</code> tool merges <code>/etc/passwd</code> and <code>/etc/shadow</code> into a format John can read directly:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo unshadow /etc/passwd /etc/shadow &gt; ~/pcworkshop/combined.txt
+</span></span><span class="line"><span class="cl">john --wordlist<span class="o">=</span>/usr/share/wordlists/rockyou.txt ~/pcworkshop/combined.txt
+</span></span><span class="line"><span class="cl">john --show ~/pcworkshop/combined.txt
+</span></span></code></pre></div><p>For SHA512crypt (<code>$6$</code>) in hashcat, use mode <code>1800</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Extract just the hash lines</span>
+</span></span><span class="line"><span class="cl">sudo grep -v <span class="s1">&#39;:\*:&#39;</span> /etc/shadow <span class="p">|</span> grep -v <span class="s1">&#39;:!:&#39;</span> &gt; ~/pcworkshop/shadow_hashes.txt
+</span></span><span class="line"><span class="cl">hashcat -m <span class="m">1800</span> -a <span class="m">0</span> ~/pcworkshop/shadow_hashes.txt /usr/share/wordlists/rockyou.txt
+</span></span></code></pre></div><h3 id="create-a-test-hash">Create a Test Hash</h3>
+<p>To practice without a real system:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Generate a SHA512crypt hash of &#34;testpassword&#34;</span>
+</span></span><span class="line"><span class="cl">openssl passwd -6 -salt <span class="s2">&#34;randomsalt&#34;</span> <span class="s2">&#34;testpassword&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Output: $6$randomsalt$&lt;hash&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Put it in a file</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;$6$randomsalt$&lt;hash from above&gt;&#39;</span> &gt; ~/pcworkshop/test_shadow.txt
+</span></span><span class="line"><span class="cl">hashcat -m <span class="m">1800</span> -a <span class="m">0</span> ~/pcworkshop/test_shadow.txt /usr/share/wordlists/rockyou.txt
+</span></span></code></pre></div><h2 id="windows-ntlm-hashes">Windows: NTLM Hashes</h2>
+<p>Windows stores passwords as NTLM hashes in the SAM database. NTLM is MD4 of the UTF-16LE encoded password — fast to crack, no salt.</p>
+<p>In authorized red team engagements, NTLM hashes come from:</p>
+<ul>
+<li>PWDUMP output (offline SAM extraction)</li>
+<li>Mimikatz (from memory on a live box)</li>
+<li>Responder (from network captures)</li>
+</ul>
+<p>A PWDUMP line looks like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">username:RID:LM_hash:NTLM_hash:::
+</span></span></code></pre></div><p>Example hashes from a test PWDUMP:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cat &gt; ~/pcworkshop/ntlm.txt <span class="s">&lt;&lt; &#39;EOF&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s">58a478135a93ac3bf058a5ea0e8fdb71
+</span></span></span><span class="line"><span class="cl"><span class="s">e6f80a6cbf0607a00ad93f85542c2802
+</span></span></span><span class="line"><span class="cl"><span class="s">a3a685f89364d4a5182b028fbe79ac38
+</span></span></span><span class="line"><span class="cl"><span class="s">EOF</span>
+</span></span></code></pre></div><p>Crack with hashcat mode <code>1000</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hashcat -m <span class="m">1000</span> -a <span class="m">0</span> ~/pcworkshop/ntlm.txt /usr/share/wordlists/rockyou.txt
+</span></span><span class="line"><span class="cl">hashcat -m <span class="m">1000</span> -a <span class="m">0</span> ~/pcworkshop/ntlm.txt /usr/share/wordlists/rockyou.txt --show
+</span></span></code></pre></div><p>NTLM is unsalted and extremely fast to crack — a GPU can test billions of NTLM candidates per second. This is why you should never use weak Windows passwords.</p>
+<h2 id="rainbow-tables-ophcrack">Rainbow Tables: Ophcrack</h2>
+<p>For older Windows systems (XP, Vista, 7) using LM or NTLM hashes, <strong>rainbow tables</strong> offer a precomputed lookup approach. Ophcrack implements this.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install ophcrack
+</span></span></code></pre></div><p>Rainbow tables are precomputed hash chains — essentially a giant <code>hash → password</code> lookup table. They trade computation time for storage space. Download tables from <a href="https://ophcrack.sourceforge.io/tables.php">ophcrack.sourceforge.io/tables.php</a>.</p>
+<p>Limitations:</p>
+<ul>
+<li>Only works on <strong>unsalted</strong> hashes</li>
+<li>Ineffective against modern systems (SHA512crypt, bcrypt, Argon2)</li>
+<li>Requires large storage (gigabytes to terabytes)</li>
+</ul>
+<p>Modern password storage uses salting specifically to defeat rainbow tables.</p>
+<h2 id="generating-hashes-for-practice">Generating Hashes for Practice</h2>
+<p>You can make your own practice targets at any time:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># MD5</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> -n <span class="s2">&#34;YourPassword&#34;</span> <span class="p">|</span> md5sum <span class="p">|</span> awk <span class="s1">&#39;{print $1}&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># SHA256</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> -n <span class="s2">&#34;YourPassword&#34;</span> <span class="p">|</span> sha256sum <span class="p">|</span> awk <span class="s1">&#39;{print $1}&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># SHA1</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> -n <span class="s2">&#34;YourPassword&#34;</span> <span class="p">|</span> sha1sum <span class="p">|</span> awk <span class="s1">&#39;{print $1}&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># NTLM (requires python3-impacket or similar)</span>
+</span></span><span class="line"><span class="cl">python3 -c <span class="s2">&#34;import hashlib; print(hashlib.new(&#39;md4&#39;, &#39;YourPassword&#39;.encode(&#39;utf-16le&#39;)).hexdigest())&#34;</span>
+</span></span></code></pre></div><hr>
+<h1 id="part-8--final-challenge-205--215">Part 8 — Final Challenge <code>[2:05 – 2:15]</code></h1>
+<p>You&rsquo;re a security consultant. A client has provided you with hashes extracted during a recent assessment. They don&rsquo;t know what password policies were in place. Figure out the patterns and crack them all.</p>
+<h2 id="challenge-hash-file">Challenge Hash File</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cat &gt; ~/pcworkshop/challenge.txt <span class="s">&lt;&lt; &#39;EOF&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s">1d06f250bea546b9862fab4751a6f056
+</span></span></span><span class="line"><span class="cl"><span class="s">013c17dfad9f7825409dd056dcf5e23f
+</span></span></span><span class="line"><span class="cl"><span class="s">d5cec0a4dab34d51eaa57c97adf7a3262c43a2f1c17369ceb11b40e06714f087
+</span></span></span><span class="line"><span class="cl"><span class="s">0a2b4ed7fecd8a31c7f2fa91da7d67a4
+</span></span></span><span class="line"><span class="cl"><span class="s">bbdc19c246e4af6b5de0398200f0b273
+</span></span></span><span class="line"><span class="cl"><span class="s">EOF</span>
+</span></span></code></pre></div><p>These are a mix of MD5 and SHA256 from across the workshop. Different attack types are needed. Hints:</p>
+<ul>
+<li>Not all hashes are the same algorithm — check the lengths</li>
+<li>Some will crack with rockyou alone</li>
+<li>Some need a mask or hybrid approach</li>
+<li>Think about what patterns humans use</li>
+</ul>
+<p>When you think you have them all, compare with the results from earlier in the workshop.</p>
+<hr>
+<h1 id="wrap-up-and-takeaways-215--220">Wrap-Up and Takeaways <code>[2:15 – 2:20]</code></h1>
+<h2 id="what-you-covered-today">What You Covered Today</h2>
+<ul>
+<li>How hash functions work and why they&rsquo;re used for passwords</li>
+<li>Dictionary attacks with rockyou against MD5, SHA1, SHA256</li>
+<li>Mask attacks for patterned passwords (<code>word + digits</code>, <code>digits + word</code>)</li>
+<li>Hybrid attacks combining wordlists with masks</li>
+<li>Combinator attacks for concatenated-word passwords</li>
+<li>Hashcat rules to apply human mutation patterns at scale</li>
+<li>Extracting hashes from Linux <code>/etc/shadow</code> using <code>unshadow</code></li>
+<li>NTLM hashes from Windows environments</li>
+<li>Rainbow tables and why salting defeats them</li>
+</ul>
+<h2 id="key-lessons-for-defenders">Key Lessons for Defenders</h2>
+<ul>
+<li><strong>Short passwords with complexity are weak.</strong> <code>P@ss1!</code> has the same effective entropy as <code>pass1</code> — the rules are predictable. Hashcat&rsquo;s rule engine covers every common substitution.</li>
+<li><strong>Length is the strongest defense.</strong> A random 5-word passphrase (<code>correct-horse-battery-staple</code>) resists brute force far better than <code>Tr0ub4dor&amp;3</code>.</li>
+<li><strong>Use a password manager.</strong> It generates truly random, unique passwords for every site. You only need to remember one strong master password.</li>
+<li><strong>Enable MFA everywhere.</strong> Even a cracked password is useless without the second factor.</li>
+<li><strong>Argon2, bcrypt, or scrypt</strong> — modern applications should use these intentionally slow algorithms. They add thousands of milliseconds per attempt, turning GPU crackers from a threat into a non-issue.</li>
+</ul>
+<h2 id="further-learning">Further Learning</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Topic</th>
+          <th>Resource</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Custom rules deep-dive</td>
+          <td><a href="https://hashcat.net/wiki/doku.php?id=rule_based_attack">hashcat wiki — Rule-based Attack</a></td>
+      </tr>
+      <tr>
+          <td>More wordlists</td>
+          <td><a href="https://weakpass.com/wordlists">weakpass.com</a> — sorted by effectiveness</td>
+      </tr>
+      <tr>
+          <td>Real breach databases</td>
+          <td><a href="https://haveibeenpwned.com">HaveIBeenPwned.com</a></td>
+      </tr>
+      <tr>
+          <td>NTLM in-depth</td>
+          <td><a href="https://blog.harmj0y.net">harmj0y&rsquo;s blog</a></td>
+      </tr>
+      <tr>
+          <td>Next course</td>
+          <td><a href="http://localhost:1313/courses/passwordcracking/1510_introtohashcat">PC1510 – Intro to Hashcat</a></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<p><em>Questions? Find me on <a href="https://github.com/BrohdeXC">GitHub</a> or after the workshop.</em></p>
+
+        
+          <div class="blog-tags">
+            
+              
+              <a href="http://localhost:1313/tags/courses/">Courses</a>&nbsp;
+            
+              
+              <a href="http://localhost:1313/tags/passwordcracking/">PasswordCracking</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fcourses%2fpasswordcracking%2fworkshop%2f&amp;text=Password%20Cracking%20Workshop&amp;via=" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fcourses%2fpasswordcracking%2fworkshop%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fcourses%2fpasswordcracking%2fworkshop%2f&amp;title=Password%20Cracking%20Workshop" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2fcourses%2fpasswordcracking%2fworkshop%2f&amp;title=Password%20Cracking%20Workshop" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fcourses%2fpasswordcracking%2fworkshop%2f&amp;title=Password%20Cracking%20Workshop" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fcourses%2fpasswordcracking%2fworkshop%2f&amp;description=Password%20Cracking%20Workshop" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+
+      
+      <li>
+        <a href="mailto:?body=http%3a%2f%2flocalhost%3a1313%2fcourses%2fpasswordcracking%2fworkshop%2f&amp;subject=Password%20Cracking%20Workshop" title="Share via email">
+          <i class="fab fa-at"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+            
+          
+
+          
+                  <h4 class="see-also">See also</h4>
+                  <ul>
+                
+                
+                    <li><a href="http://localhost:1313/courses/networkhacking/syllabus/">Network Hacking Course</a></li>
+                
+                    <li><a href="http://localhost:1313/courses/passwordcracking/1535_ophcracklab/">PC1525 - John Lab</a></li>
+                
+                    <li><a href="http://localhost:1313/courses/passwordcracking/1530_introtoophcrack/">PC1530 - Intro to Ophcrack</a></li>
+                
+                    <li><a href="http://localhost:1313/courses/passwordcracking/1525_johnlab/">PC1525 - JohnTheRipper Lab</a></li>
+                
+                    <li><a href="http://localhost:1313/courses/passwordcracking/1520_introtojohn/">PC1520 - Intro to John the Ripper</a></li>
+                
+              </ul>
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="http://localhost:1313/courses/networkhacking/syllabus/" data-toggle="tooltip" data-placement="top" title="Network Hacking Course">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+      
+      
+      
+      
+        
+      
+
+    </div>
+  </div>
+</div>
+
+      <footer>
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+		
+		  <a href="mailto:bradinrohde0@gmail.com" title="Email me">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://github.com/BrohdeXC" title="GitHub">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://linkedin.com/in/bradinrohde" title="LinkedIn">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://www.youtube.com/@BrohdeDoesAThing" title="Youtube">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="https://brohde.me/">Bradin Rohde</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2025 - 2026
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="http://localhost:1313/">Bradin Rohde</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.161.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" integrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc+T1b2N+teh/OJfpU0jr6" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha384-w5y/xIeYixWvfM+A1cEbmHPURnvyqmVg5eVENruEdDjcyRLUSNej7512JQGspFUr" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+<script src="http://localhost:1313/js/main.js"></script>
+<script src="http://localhost:1313/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="http://localhost:1313/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+

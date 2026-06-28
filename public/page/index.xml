@@ -1,10 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Bradin Rohde</title><link>https://brohde.me/page/</link><description>Recent content in Pages on Bradin Rohde</description><generator>Hugo</generator><language>en</language><managingEditor>bradinrohde0@gmail.com (Bradin Rohde)</managingEditor><webMaster>bradinrohde0@gmail.com (Bradin Rohde)</webMaster><atom:link href="https://brohde.me/page/index.xml" rel="self" type="application/rss+xml"/><item><title>whoami</title><link>https://brohde.me/page/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>bradinrohde0@gmail.com (Bradin Rohde)</author><guid>https://brohde.me/page/about/</guid><description>&lt;section class="hero"&gt;
- &lt;div class="terminal-line"&gt;
- &lt;span class="prompt"&gt;root@brohde:~# whoami&lt;/span&gt;
- &lt;span id="rotating-text"&gt;&lt;/span&gt;
- &lt;span class="cursor"&gt;█&lt;/span&gt;
- &lt;/div&gt;
-&lt;/section&gt;
-&lt;p&gt;I&amp;rsquo;m Bradin Rohde, a mechanical engineering student and cybersecurity club president at Utah State University. My goal is to combine my knowledge of engineering and security to help make more stable security systems.&lt;/p&gt;
-&lt;p&gt;Most of my time right now is dedicated to finishing up my degree, working on &lt;a href="projects/shellfire"&gt;ShellFire&lt;/a&gt; for the class that I TA for, and designing 3D models in SolidWorks for Shasta Cloud.&lt;/p&gt;
-&lt;p&gt;When I&amp;rsquo;m not at work or school, I love to compete in CTFs. Using my knowledge of network analysis, OSINT, cryptography, password cracking, and whatever tools I learn along the way, I&amp;rsquo;m always fueled by Red Bull to place as high as I can.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Bradin Rohde</title>
+    <link>http://localhost:1313/page/</link>
+    <description>Recent content in Pages on Bradin Rohde</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>bradinrohde0@gmail.com (Bradin Rohde)</managingEditor>
+    <webMaster>bradinrohde0@gmail.com (Bradin Rohde)</webMaster>
+    <atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>resume</title>
+      <link>http://localhost:1313/page/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>bradinrohde0@gmail.com (Bradin Rohde)</author>
+      <guid>http://localhost:1313/page/resume/</guid>
+      <description>&lt;div class=&#34;well&#34;&gt;&#xA;&lt;section class=&#34;hero&#34;&gt;&#xA;  &lt;div class=&#34;terminal-line&#34;&gt;&#xA;      &lt;span class=&#34;prompt&#34;&gt;root@brohde:~# resume&lt;/span&gt;&#xA;      &lt;span class=&#34;cursor&#34;&gt;█&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/section&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>whoami</title>
+      <link>http://localhost:1313/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>bradinrohde0@gmail.com (Bradin Rohde)</author>
+      <guid>http://localhost:1313/page/about/</guid>
+      <description>&lt;div class=&#34;well&#34;&gt;&#xA;&lt;section class=&#34;hero&#34;&gt;&#xA;  &lt;div class=&#34;terminal-line&#34;&gt;&#xA;      &lt;span class=&#34;prompt&#34;&gt;root@brohde:~# whoami&lt;/span&gt;&#xA;      &lt;span id=&#34;rotating-text&#34;&gt;&lt;/span&gt;&#xA;      &lt;span class=&#34;cursor&#34;&gt;█&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/section&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;I&amp;rsquo;m Bradin Rohde, a mechanical engineering student and cybersecurity club president at Utah State University. My goal is to combine my knowledge of engineering and security to help make more stable security systems.&lt;/p&gt;&#xA;&lt;p&gt;Most of my time right now is dedicated to finishing up my degree, working on &lt;a href=&#34;projects/shellfire&#34;&gt;ShellFire&lt;/a&gt; for the class that I TA for, and designing 3D models in SolidWorks for Shasta Cloud.&lt;/p&gt;&#xA;&lt;p&gt;When I&amp;rsquo;m not at work or school, I love to compete in CTFs. Using my knowledge of network analysis, OSINT, cryptography, password cracking, and whatever tools I learn along the way, I&amp;rsquo;m always fueled by Red Bull to place as high as I can.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

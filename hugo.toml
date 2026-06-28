@@ -109,6 +109,12 @@ pygmentsCodefencesGuessSyntax = true
     url = "page/about/"
     weight = 2
 
+[[menu.main]]
+    parent = "about"
+    name = "resume"
+    url = "page/resume/"
+    weight = 3
+
 #[[menu.main]]
 #    parent = "about"
 #    name = "Resume"

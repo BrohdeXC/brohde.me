@@ -2,6 +2,7 @@
 title: whoami
 comments: false
 ---
+<div class="well">
 <section class="hero">
   <div class="terminal-line">
       <span class="prompt">root@brohde:~# whoami</span>
@@ -9,6 +10,7 @@ comments: false
       <span class="cursor">█</span>
   </div>
 </section>
+</div>
 
 I'm Bradin Rohde, a mechanical engineering student and cybersecurity club president at Utah State University. My goal is to combine my knowledge of engineering and security to help make more stable security systems. 
 
