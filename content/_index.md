@@ -1,6 +1,9 @@
 ---
 
 ---
+<div class="anhnouncement-bar" role="region">
+    <p>Download the <a href="/assets/files/PasswordCracking/BSidesPC.7z" download>BSides Workshop File</a><p>
+    <p><strong>SHA256:</strong> ad07ac3da1c38f45c33b913dc6ed28cf060f51c4f5b91e94785de98b4dbca91c</p>
 
 <section class="hero">
   <div class="terminal-line">

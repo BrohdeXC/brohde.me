@@ -3,22 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-06-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/courses/</loc>
-    <lastmod>2026-06-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/courses/</loc>
-    <lastmod>2026-06-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/courses/passwordcracking/workshop/</loc>
-    <lastmod>2026-06-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/passwordcracking/</loc>
-    <lastmod>2026-06-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-06-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2026-05-05T00:00:00+00:00</lastmod>
@@ -27,6 +12,9 @@
     <lastmod>2026-05-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/2026-04-30-graduation/</loc>
+    <lastmod>2026-05-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-05-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/competitions/</loc>
@@ -56,10 +44,19 @@
     <loc>http://localhost:1313/blog/2026-02-25-kingofthehill/</loc>
     <lastmod>2026-02-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/courses/</loc>
+    <lastmod>2026-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/courses/</loc>
+    <lastmod>2026-02-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/courses/networkhacking/syllabus/</loc>
     <lastmod>2026-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/labs/</loc>
+    <lastmod>2026-02-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/passwordcracking/</loc>
     <lastmod>2026-02-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/courses/passwordcracking/1535_ophcracklab/</loc>
